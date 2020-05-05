@@ -8,7 +8,7 @@ exports.seed = function (knex) {
         {
           food: 'chocolate',
           safe: false,
-          img: 'http://safefurdogs.com/img/chocolate.svg',
+          img: 'https://safefurdogs.com/img/chocolate.svg',
           summary: 'Chocolate is toxic to dogs and could cause a medical emergency depending on the amount ingested.',
           resources: [
             ['What to Do if Your Dog Eats Chocolate', 'https://www.akc.org/expert-advice/health/what-to-do-if-your-dog-ate-chocolate/', 'Chocolate is toxic to dogs, and depending on the type and amount of chocolate consumed and the weight of your dog, it could cause a serious medical emergency. If you know your dog has eaten chocolate, it’s important to monitor him for signs of toxicity'],
@@ -20,7 +20,7 @@ exports.seed = function (knex) {
         {
           food: 'chicken',
           safe: true,
-          img: 'http://safefurdogs.com/img/chicken.svg',
+          img: 'https://safefurdogs.com/img/chicken.svg',
           summary: 'Chicken can be a great source of protein for dogs, and can even be substituted for or added to his or her regular meal.',
           resources: [
             ['Can Dogs Eat Chicken', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-chicken/', 'Considering how many dog foods contain it, it’s a safe bet that you can feed your dog chicken. In fact, it’s a good source of protein, and cooked chicken can even be substituted for or added to his regular meal.'],
@@ -31,7 +31,7 @@ exports.seed = function (knex) {
         {
           food: 'eggs',
           safe: true,
-          img: 'http://safefurdogs.com/img/eggs.svg',
+          img: 'https://safefurdogs.com/img/eggs.svg',
           summary: 'The high protein content, essential amino acids, and fatty acids in eggs make them an excellent treat or dietary supplement for dogs.',
           resources: [
             ['Can Dogs Eat Eggs?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-eggs/', 'In the past, dogs stole eggs from birds’ nests and ate them raw, shell and all. Today, most of us don’t let our dogs wander far and wide in search of unguarded nests, but eggs are still a good source of food for dogs, especially in homemade diets.'],
@@ -41,7 +41,7 @@ exports.seed = function (knex) {
         {
           food: 'grapes',
           safe: false,
-          img: 'http://safefurdogs.com/img/grapes.svg',
+          img: 'https://safefurdogs.com/img/grapes.svg',
           summary: 'Grapes and their raisin counterpart are highly toxic to dogs.',
           resources: [
             ['Are Grapes Bad for Dogs?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-grapes/', 'Can dogs eat grapes? The answer (and this goes for raisins, too, which are just dried grapes) is easy: No. Grapes and raisins are known to be highly toxic to dogs, though research has yet to pinpoint exactly which substance in the fruit causes this reaction.'],
@@ -53,7 +53,7 @@ exports.seed = function (knex) {
         {
           food: 'pork',
           safe: true,
-          img: 'http://safefurdogs.com/img/pork.svg',
+          img: 'https://safefurdogs.com/img/pork.svg',
           summary: 'Pork can be safe to eat, but only if there is not a lot of extra additions like seasonings added to it.',
           resources: [
             ['Can Dogs Eat Pork?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-pork/', 'While this is an area some owners might debate, the answer is a little more involved than just a straight yes or no. It is safe to eat pork, but there are certain conditions that must be adhered to if you plan to feed your dog the other white meat.'],
@@ -64,7 +64,7 @@ exports.seed = function (knex) {
         {
           food: 'bananas',
           safe: true,
-          img: 'http://safefurdogs.com/img/bananas.svg',
+          img: 'https://safefurdogs.com/img/bananas.svg',
           summary: 'Bananas are a great source of potassium, vitamin B6, and vitamin C. They can be an excellent healthy treat.',
           resources: [
             ['Can Dogs Eat Bananas?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bananas/', 'Bananas are high in potassium, vitamin B6, and vitamin C. In fact, sometimes veterinarians recommend this fruit as a healthy alternative to fatty, salty treats. The fruit is also high in fiber, which can help if your dog is having gastrointestinal problems, and magnesium, which promotes bone growth and helps the body produce protein and absorb vitamins.'],
@@ -74,7 +74,7 @@ exports.seed = function (knex) {
         {
           food: 'turkey',
           safe: true,
-          img: 'http://safefurdogs.com/img/turkey.svg',
+          img: 'https://safefurdogs.com/img/turkey.svg',
           summary: 'Like the other main meats, turkey can be safe for dogs in moderation as long as it is served plain.',
           resources: [
             ['Can Dogs Eat Turkey?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-turkey/', 'Thanksgiving, for most families, is all about the bird. Hours go into the roasting and basting, and once the feast is over, there are turkey sandwiches, turkey potpies, and turkey casseroles to make. In the midst of all of that leftover turkey, it is tempting to slip our dogs some meat, or even to make them up a plate of it as a special Thanksgiving treat.'],
