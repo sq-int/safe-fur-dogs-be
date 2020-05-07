@@ -8,7 +8,7 @@ module.exports = {
 function generateToken(user) {
     const payload = {
         subject: user.id,
-        username: user.username
+        username: user.un
     }
 
     const options = {

@@ -80,6 +80,24 @@ exports.seed = function (knex) {
             ['Can Dogs Eat Turkey?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-turkey/', 'Thanksgiving, for most families, is all about the bird. Hours go into the roasting and basting, and once the feast is over, there are turkey sandwiches, turkey potpies, and turkey casseroles to make. In the midst of all of that leftover turkey, it is tempting to slip our dogs some meat, or even to make them up a plate of it as a special Thanksgiving treat.'],
             ['Is turkey good for my dog?', 'https://trupanion.com/pet-care/can-dogs-eat-turkey', 'Turkey is a popular meat and can be eaten in all sorts of different ways. Especially during Thanksgiving! There\'s plenty of recipes to help you get creative with the leftovers, but question that always comes up is, should you feed turkey to your dog? The answer might be a bit more complicated than you think.']
           ]
+        },
+        {
+          food: 'beef',
+          safe: true,
+          img: 'https://safefurdogs.com/img/steak.svg',
+          summary: 'Beef is very protein-rich and can can also provide other essentials like fatty acids, minerals, and vitamins in your dog\'s diet.',
+          resources: [
+            [
+              "Can My Dog Eat This? A List of Human Foods Dogs Can and Can't Eat",
+              "https://www.healthline.com/nutrition/human-foods-for-dogs#section41",
+              "The beef that you feed to your dog should be plain, without any added sauces or seasonings. These often contain ingredients that may be harmful to your dog, such as salt."
+            ],
+            [
+              "Can My Dog Eat Beef?",
+              "https://www.rover.com/blog/can-my-dog-eat-beef/",
+              "Yes! A protein-rich diet is important for your dog as it provides the energy your dog needs, and a lean source of beef is a great option.  Grass-fed beef is recommended and will provide the essential fatty acids, minerals, and vitamins that give your dog a healthy coat, skin, joints, and muscles."
+            ]
+          ]
         }
       ]);
     });

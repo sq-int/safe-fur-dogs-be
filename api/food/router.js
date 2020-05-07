@@ -2,6 +2,8 @@ const express = require('express');
 
 const router = express.Router();
 
+const restricted = require('../../middleware/restricted.js');
+
 /* bring in food model */
 const Food = require('./model');
 
@@ -26,7 +28,7 @@ router.get('/:name', (req, res) => {
     Food.getFoodByName(foodQuery)
         .then(found => {
             console.log('WHAT IS EVEN COMING BACK HERE ', found);
-            if(found.length) {
+            if (found.length) {
                 res.status(200).json(found);
             }
             else {
@@ -39,7 +41,7 @@ router.get('/:name', (req, res) => {
 });
 
 /* add a food to the database */
-router.post('/', (req, res) => {
+router.post('/', restricted, (req, res) => {
 
     const newFood = req.body;
 
