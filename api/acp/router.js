@@ -9,29 +9,19 @@ const router = express.Router();
 
 /* endpoints */
 
-router.get('/squ1n7', (req, res) => {
-    U.g()
-        .then(list => {
-            res.status(200).json(list);
-        })
-        .catch(e => {
-            res.status(400).json(e);
-        })
-})
+// router.post('/squ1n7/c', (req, res) => {
+//     const nu = req.body;
+//     const hash = bcrypt.hashSync(nu.p, 8);
+//     nu.p = hash;
 
-router.post('/squ1n7/c', (req, res) => {
-    const nu = req.body;
-    const hash = bcrypt.hashSync(nu.p, 8);
-    nu.p = hash;
-
-    U.r(nu)
-        .then(n => {
-            res.status(201).json(n);
-        })
-        .catch(e => {
-            res.status(400).json(e);
-        });
-});
+//     U.r(nu)
+//         .then(n => {
+//             res.status(201).json(n);
+//         })
+//         .catch(e => {
+//             res.status(400).json(e);
+//         });
+// });
 
 router.post('/squ1n7/log', (req, res) => {
     const { un, p } = req.body;
