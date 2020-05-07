@@ -12,9 +12,9 @@ const aRouter = require('./acp/router');
 
 /* configure rate limit */
 const limiter = rateLimit({
-    windowMs: 20 * 60 * 1000,
-    max: 20,
-    message: 'Slow down there, cowboy. You have sent too many requests. We limit searches currently as Safe Fur Dogs is a free service. Please wait some time before submitting another request, or consider using the coffee icon on the website to buy us a coffee so we can increase our limits.'
+    windowMs: 15 * 60 * 1000,
+    max: 15,
+    message: 'Slow down there, cowboy. You have sent too many requests.'
 });
 
 /* middleware */

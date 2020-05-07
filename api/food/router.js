@@ -27,7 +27,6 @@ router.get('/:name', (req, res) => {
 
     Food.getFoodByName(foodQuery)
         .then(found => {
-            console.log('WHAT IS EVEN COMING BACK HERE ', found);
             if (found.length) {
                 res.status(200).json(found);
             }
