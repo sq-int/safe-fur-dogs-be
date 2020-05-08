@@ -4,6 +4,8 @@ const router = express.Router();
 
 const Requested = require('./model.js');
 
+const restricted = require('../../middleware/restricted.js');
+
 /* get requested food */
 router.get('/', (req, res) => {
     Requested.getRequested()

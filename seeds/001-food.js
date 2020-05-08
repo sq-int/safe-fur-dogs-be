@@ -98,6 +98,48 @@ exports.seed = function (knex) {
               "Yes! A protein-rich diet is important for your dog as it provides the energy your dog needs, and a lean source of beef is a great option.  Grass-fed beef is recommended and will provide the essential fatty acids, minerals, and vitamins that give your dog a healthy coat, skin, joints, and muscles."
             ]
           ]
+        },
+        {
+          food: 'oranges',
+          safe: true,
+          img: 'https://safefurdogs.com/img/oranges.svg',
+          summary: 'Oranges can be a healthy snack for your dogs in moderate, limited amounts.',
+          resources: [
+            ['Are Oranges Good for Dogs?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-oranges/', 'Oranges are full of nutrients, potassium, and some fiber, and they are low in sodium, which makes them a healthy snack if given in limited amounts — maybe one or two segments a day. This fruit is also full of vitamin C, which can benefit your dog’s immune system.'],
+            ['Can dogs have oranges?', 'https://www.purina.com/articles/dog/nutrition/can-dogs-eat-oranges', 'Yes. Dogs can have fleshy fruit parts of oranges because they aren’t toxic. But does that mean your dog should eat them? A veterinarian can help you answer that. Some factors that impact whether oranges are good or bad for your dog are...'],
+            ['Can Dogs Eat Oranges?', 'https://www.petmd.com/dog/nutrition/can-dogs-eat-oranges', 'A few well-known healthy fruits for dogs include blueberries, bananas, and apples. You may even see these fruits as ingredients in your dog’s food and treats. Not only can some fruits promote better health in your pet, they can also become a favorite snack thanks to their sweet and delicious flavors.']
+          ]
+        },
+        {
+          food: 'watermelon',
+          safe: true,
+          img: 'https://safefurdogs.com/img/watermelon.svg',
+          summary: 'With no fat or cholesterol, this hydrating fruit can be a great snack for dogs, but seeds and rinds should be avoided.',
+          resources: [
+            ['Can Dogs Eat Watermelon?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-watermelon/', 'The answer is yes, with a couple of precautions. Seeds could cause an intestinal blockage, so make sure you remove them. It’s also probably not a good idea to allow a dog to chew on the rind, because it can cause gastrointestinal upset.'],
+            ['Can dogs eat watermelon?', 'https://trupanion.com/pet-care/can-dogs-eat-watermelon', 'If you\'re a big watermelon fan and so is your dog then you\'re in luck. You can feed your dog watermelon but, like anything else, it\'s important to give it to them in moderation. Exercising caution is always a good idea, as all dogs can react differently to certain foods.']
+          ]
+        },
+        {
+          food: 'bacon',
+          safe: false,
+          img: 'https://safefurdogs.com/img/bacon/svg',
+          summary: 'Processed meats such as bacon or sausage are known carcinogens linked to cancer and should be avoided.',
+          resources: [
+            ['Is Preserved Pork, Such as Ham and Bacon, Safe for My Dog to Eat?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-pork/', 'The answer to both of these meats is no! In 2015, the World Health Organization found that processed meats such as bacon and sausage were known carcinogens linked to cancer. Bacon is an incredibly rich and fatty food with a high salt content, which can prove to be too much for a dog’s stomach to handle. Eating a large amount can cause pancreatitis, which can be fatal.'],
+            ['The Truth About Giving Your Dog Bacon!', 'https://canigivemydog.com/bacon', 'Be smart. Do not give a precious pooch any fried bacon. You want your dog to be around for many years. It can be hard to say no, but be strong.'],
+            ['Can Dogs Have Bacon or Bacon Grease?', 'https://www.pethealthpharmacy.com/can-dogs-have-bacon-or-bacon-grease/', 'When pets constantly eat rich and fatty foods it can cause inflammation of the pancreas gland. The pancreas is responsible for releasing digestive enzymes in the stomach so that the body can properly absorb and digest food that is taken in. When this gland becomes inflamed, it ceases to function efficiently.']
+          ]
+        },
+        {
+          food: 'onions',
+          safe: false,
+          img: 'https://safefurdogs.com/img/onions.svg',
+          summary: 'Onions contain a toxin that can cause severe damage to a dog. Avoid giving them any.',
+          resources: [
+            ['Are onions toxic to dogs?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-onions/', 'The toxin causes oxidative damage to your dog\'s red blood cells by attaching to the oxygen molecules in your dog\'s red blood cells. This reduces the ability of the red blood cells to carry oxygen, and also tricks your dog\'s body into thinking that the blood cell is an invader. The red blood cell is destroyed in a process known as hemolysis, resulting in hemolytic anemia.'],
+            ['Are Onions Bad for Dogs? How to Handle Onion Toxicity', 'https://wildearth.com/blogs/dog-knowledge/are-onions-bad-for-dogs', 'No, onions are not something your dog should eat. In fact, they\'re one of the most dangerous human foods out there for our canine companions. It turns out that ingesting too much onion can damage a dog\'s red blood cells, possibly leading to a serious medical issue called hemolytic anemia.']
+          ]
         }
       ]);
     });
