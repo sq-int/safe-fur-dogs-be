@@ -8,7 +8,7 @@ const server = express();
 
 /* bring in routers */
 const foodRouter = require('./food/router');
-const aRouter = require('./acp/router');
+const requestRouter = require('./requested/router');
 
 /* configure rate limit */
 const limiter = rateLimit({
@@ -25,7 +25,7 @@ server.use(limiter);
 
 /* routes */
 server.use('/api/food', foodRouter);
-server.use(`${process.env.FOOD}`, aRouter);
+server.use('/api/request', requestRouter);
 
 /* endpoints */
 
