@@ -297,7 +297,7 @@ exports.seed = function (knex) {
         {
           food: 'peanut butter',
           safe: 'true',
-          img: 'https:/safefurdogs.com/img/peanutbutter.svg',
+          img: 'https://safefurdogs.com/img/peanutbutter.svg',
           summary: 'Unsalted peanut butter without extra sugar or additives can be a safe treat for dogs in moderation.',
           resources: [
             ['Can Dogs Eat Peanut Butter?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-peanut-butter/', 'Does your dog magically appear in the kitchen every time you open up the peanut butter jar? You are not alone. Most dog owners give their dogs peanut butter from time to time, and this nutty treat does indeed drive dogs nuts. It can be spread inside hollow bones and toys for a long-lasting treat, or just licked from a spoon or finger as a quick reward.'],
