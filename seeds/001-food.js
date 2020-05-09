@@ -283,6 +283,36 @@ exports.seed = function (knex) {
             ['Can Dogs Eat Pineapple?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-pineapple/', 'Pineapple is a favorite fruit for many people. It is tart, sweet, and tangy, and its tropical origins put us in mind of warmer climates. In moderation, it can also be a healthy treat for dogs, similar to other types of fruit, like strawberries and watermelon.'],
             ['Can Dogs Eat Pineapple? What to Know About Dogs and Pineapples', 'https://www.dogster.com/dog-food/can-dogs-eat-pineapple', 'So, can dogs eat pineapple? Emmy award-winning veterinarian Dr. Jeff Werber confirms that not only is pineapple safe for dogs, pineapple is actually a healthy treat to share with your dogs! But before you feed your dog pineapple, read this first.']
           ]
+        },
+        {
+          food: 'cheese',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/cheese.svg',
+          summary: 'Cheese is a great source of protein and calcium and is often used to train dogs, but should be given in moderation.',
+          resources: [
+            ['Can Dogs Eat Cheese?​', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-cheese/', 'Yes, dogs can eat cheese. In fact, cheese is often a great training tool, especially for puppies. But should dogs eat cheese? While some dogs can eat cheese, and most dogs love it, many dogs can be intolerant of cheese. Even for dogs that are able to tolerate cheese, it is probably best fed in moderation.'],
+            ['Can Dogs Eat Cheese?', 'https://www.rover.com/blog/can-dogs-eat-cheese/', 'Can dogs eat cheese? Our furry companions would, of course, give an enthusiastic yes. And while cheese is not toxic to dogs, a simple yes doesn’t quite cover the canine relationship with cheese.']
+          ]
+        },
+        {
+          food: 'peanut butter',
+          safe: 'true',
+          img: 'https:/safefurdogs.com/img/peanutbutter.svg',
+          summary: 'Unsalted peanut butter without extra sugar or additives can be a safe treat for dogs in moderation.',
+          resources: [
+            ['Can Dogs Eat Peanut Butter?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-peanut-butter/', 'Does your dog magically appear in the kitchen every time you open up the peanut butter jar? You are not alone. Most dog owners give their dogs peanut butter from time to time, and this nutty treat does indeed drive dogs nuts. It can be spread inside hollow bones and toys for a long-lasting treat, or just licked from a spoon or finger as a quick reward.'],
+            ['What Kind of Peanut Butter is Safe for Dogs?', 'https://www.preventivevet.com/dogs/is-peanut-butter-safe-for-dogs', 'Xylitol is an increasingly common sugar-replacement sweetener that\'s in hundreds of products, including some brands of peanut butter. It\'s an “all natural” sugar substitute that’s fine for people, but it’s extremely poisonous to dogs and poisons thousands of dogs each year.']
+          ]
+        },
+        {
+          food: 'peanuts',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/peanuts.svg',
+          summary: 'Raw, unsalted peanuts can be a treat high in protein and healthy fats for dogs. Nuts that have more additives that people usually enjoy eating should be avoided.',
+          resources: [
+            ['Can Dogs Eat Peanuts?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-peanuts/', 'Everyone knows that dogs love peanut butter. Since peanut butter is made from peanuts, most of us assume that peanuts are safe for dogs, too. The answer is not quite that simple, however.'],
+            ['Can Dogs Eat Peanuts? Are Peanuts Safe For Dogs?', 'https://dogtime.com/dog-health/dog-food-dog-nutrition/59009-can-dogs-eat-peanuts', 'Can dogs eat peanuts? The short answer is yes, dogs can eat peanuts, but there are some big exceptions and things you should know before you feed them to your dog.']
+          ]
         }
       ]);
     });
