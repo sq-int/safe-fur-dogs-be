@@ -220,7 +220,68 @@ exports.seed = function (knex) {
           summary: 'Although milk is safe in moderation, a lot of dogs can be lactose intolerant and milk can cause some intestinal issues.',
           resources: [
             ['Can Dogs Drink Milk?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-drink-milk/', 'Milk is a safe treat in small quantities. A few tablespoons of cow’s milk or goat’s milk on an occasional basis can be a nice reward for your dog without the side effects of overindulgence. But, you should probably hold off on offering your dog an entire bowl in one sitting, as it can cause unpleasant reactions, including diarrhea, vomiting, and loose stools.'],
-            ['Can Dogs Drink Milk?', 'https://www.petmd.com/dog/nutrition/can-dogs-drink-milk', 'When you picture a pet drinking milk, most will imagine a cat happily lapping up some out of her bowl. So many, might be surprised to hear that cats really shouldn’t ever be poured a bowl of milk. But, when it comes to their four-legged counterparts, is there a similar answer to the question: Can dogs drink milk?']
+            ['Can Dogs Drink Milk?', 'https://www.petmd.com/dog/nutrition/can-dogs-drink-milk', 'When you picture a pet drinking milk, most will imagine a cat happily lapping up some out of her bowl. So many, might be surprised to hear that cats really shouldn’t ever be poured a bowl of milk. But, when it comes to their four-legged counterparts, is there a similar answer to the question: Can dogs drink `milk?']
+          ]
+        },
+
+        {
+          food: 'peaches',
+          safe: true,
+          img: 'https://safefurdogs.com/img/peaches.svg',
+          summary: 'Peaches can be a great source of vitamin A and fiber, but should be given in moderation as it isn\'t a typical part of a dog\'s diet.',
+          resources: [
+            ['Can Dogs Eat Peaches?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-peaches/', 'Peaches are a great source of vitamin A and fiber. In small, cut-up pieces the flesh of a peach is safe for your dog. But, like any food that’s not a regular part of his diet, peaches can cause some stomach upset, most commonly temporary diarrhea.'],
+            ['Can Dogs Eat Peaches?', 'https://www.healthypawspetinsurance.com/blog/2018/08/21/can-dogs-eat-peaches', 'Sweet and succulent, peaches are the fruit staple of summer. And yes, they are safe for your dog to eat! Peaches are a great source of fiber and Vitamins A and C. A very small amount of the fruit can serve as a nice treat for your pup in the hot summer months.']
+          ]
+        },
+        {
+          food: 'chips',
+          safe: false,
+          img: 'https://safefurdogs.com/img/chips.svg',
+          summary: 'Although dogs could potentially safely eat chips, it isn\'t recommended as they do not provide any nutritional value.',
+          resources: [
+            ['Can Dogs Eat Potato Chips? Are Potato Chips Safe For Dogs?', 'https://dogtime.com/dog-health/dog-food-dog-nutrition/84137-can-dogs-eat-potato-chips', 'Can dogs eat potato chips? You may be wondering if you can share with your pooch as you enjoy a bag of potato chips for yourself, or maybe your dog accidentally ate some off the floor. For most of us human parents, potato chips are a tasty snack we like to have from time to time, so are potato chips also safe for dogs to eat?'],
+            ['Can My Dog Eat Chips? How Junk Food Can Harm Your Dog', 'https://www.rover.com/blog/can-my-dog-eat-chips-how-junk-food-can-harm-your-dog/', 'Junk food is a craving that many humans have trouble resisting. From some Cheetos at midnight to potato chips during a game, it’s easy to forget that these tasty treats aren’t that great for us. But what about our dogs? If chips are bad for us, what about our furry best friends?']
+          ]
+        },
+        {
+          food: 'cookies',
+          safe: false,
+          img: 'https://safefurdogs.com/img/cookies.svg',
+          summary: 'Common ingredients that are in cookies like nutmeg, chocolate, raisins, and macadamia nuts make cookies and unsafe treat for dogs.',
+          resources: [
+            ['Can my dog eat cookies?', 'https://www.rover.com/blog/can-dog-eat-cookies/', 'Recipes for the cookies we all love and eat are full of ingredients that can make your dog sick. (Classic chocolate chip, anyone?) My dogs tend to be way more resilient than I think when they eat something questionable, but it’s always better to be safe than sorry.'],
+            ['Don’t Feed Your Dog Cookies', 'https://canigivemydog.com/cookies', 'If you want to feed your dog cookies then make them yourself instead of buying them at the grocery store. Homemade is a much better way to share this snack (and in small amounts of course). Another option is specially made organic dog cookies.']
+          ]
+        },
+        {
+          food: 'pasta',
+          safe: true,
+          img: 'https://safefurdogs.com/img/pasta.svg',
+          summary: 'Plain pasta isn\'t poinsous to dogs, but it provides very little nutritional value, so it is not recommended. Also avoid serving it with anything additional.',
+          resources: [
+            ['Can My Dog Eat Pasta?', 'https://www.rover.com/blog/can-my-dog-eat-pasta/', 'We’ve all seen hilarious recreations of the Lady and the Tramp scene with the shared spaghetti noodle. And let’s admit it, tortellini are fun to throw so we can watch our dog try and catch them. Pasta is a great comfort food for us humans, but is it ok for our furry best friends?'],
+            ['Is Pasta Good for Dogs?', 'https://smartdogowners.com/pasta/', 'Pasta is a guaranteed comfort food. You make it light and loaded with veggies, or you can make it cheesy and drowning in a rich tomato cream sauce or a white cheese sauce. However you take your pasta, you’ll take it as long as it’s delicious. Before you give your dog a heaping serving of your favorite pasta dish, take a few things into consideration.']
+          ]
+        },
+        {
+          food: 'strawberries',
+          safe: true,
+          img: 'https://safefurdogs.com/img/strawberries.svg',
+          summary: 'Strawberries are a great summer, warm weather treat for your dogs, but you should only serve them fresh strawberries.',
+          resources: [
+            ['Can I Feed My Dog Strawberries?', 'https://www.akc.org/expert-advice/nutrition/feed-dog-strawberries/', 'Strawberries are a healthy, low-calorie, sweet treat for your dog, full of antioxidants, high in fiber and vitamin C. Here’s a bonus. By giving your dog strawberries, you are also helping him stay healthy in more ways than one. For example, over time, fresh fruit may help slow down the aging process, strengthen the immune system, and help with weight management. Strawberries can also help whiten your pup’s teeth.'],
+            ['Can Dogs Eat Strawberries? Are Strawberries Safe For Dogs?', 'https://dogtime.com/dog-health/dog-food-dog-nutrition/59519-can-dogs-eat-strawberries', 'Strawberries are full of healthy nutrients that are good for dogs, but like any good thing, they are best enjoyed in moderation. They’re not toxic or poisonous to dogs, but they do contain sugar, and too many can cause an upset stomach.']
+          ]
+        },
+        {
+          food: 'pineapples',
+          safe: true,
+          img: 'https://safefurdogs.com/img/pineapples.svg',
+          summary: 'Pineapples are a great treat for dogs that provide a lot of vitamins and minerals, but should be given in moderation because of its high sugar content.',
+          resources: [
+            ['Can Dogs Eat Pineapple?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-pineapple/', 'Pineapple is a favorite fruit for many people. It is tart, sweet, and tangy, and its tropical origins put us in mind of warmer climates. In moderation, it can also be a healthy treat for dogs, similar to other types of fruit, like strawberries and watermelon.'],
+            ['Can Dogs Eat Pineapple? What to Know About Dogs and Pineapples', 'https://www.dogster.com/dog-food/can-dogs-eat-pineapple', 'So, can dogs eat pineapple? Emmy award-winning veterinarian Dr. Jeff Werber confirms that not only is pineapple safe for dogs, pineapple is actually a healthy treat to share with your dogs! But before you feed your dog pineapple, read this first.']
           ]
         }
       ]);
