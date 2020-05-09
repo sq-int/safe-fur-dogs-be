@@ -123,7 +123,7 @@ exports.seed = function (knex) {
         {
           food: 'bacon',
           safe: false,
-          img: 'https://safefurdogs.com/img/bacon/svg',
+          img: 'https://safefurdogs.com/img/bacon.svg',
           summary: 'Processed meats such as bacon or sausage are known carcinogens linked to cancer and should be avoided.',
           resources: [
             ['Is Preserved Pork, Such as Ham and Bacon, Safe for My Dog to Eat?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-pork/', 'The answer to both of these meats is no! In 2015, the World Health Organization found that processed meats such as bacon and sausage were known carcinogens linked to cancer. Bacon is an incredibly rich and fatty food with a high salt content, which can prove to be too much for a dog’s stomach to handle. Eating a large amount can cause pancreatitis, which can be fatal.'],
