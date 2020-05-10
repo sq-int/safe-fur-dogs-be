@@ -313,6 +313,56 @@ exports.seed = function (knex) {
             ['Can Dogs Eat Peanuts?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-peanuts/', 'Everyone knows that dogs love peanut butter. Since peanut butter is made from peanuts, most of us assume that peanuts are safe for dogs, too. The answer is not quite that simple, however.'],
             ['Can Dogs Eat Peanuts? Are Peanuts Safe For Dogs?', 'https://dogtime.com/dog-health/dog-food-dog-nutrition/59009-can-dogs-eat-peanuts', 'Can dogs eat peanuts? The short answer is yes, dogs can eat peanuts, but there are some big exceptions and things you should know before you feed them to your dog.']
           ]
+        },
+        {
+          food: 'broccoli',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/broccoli.svg',
+          summary: 'Raw and cooked broccoli is safe for dogs to consume as long as there are no seasonings or oil added.',
+          resources: [
+            ['Can Dogs Eat Broccoli?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-broccoli/', 'Yes, dogs can eat broccoli. Dogs can eat both cooked and raw broccoli, as long as there are no seasonings or oils added. However, this vegetable should always be given in very small quantities, especially because the florets contain isothiocyanates, which can cause gastric irritation in dogs.'],
+            ['Can My Dog Eat Broccoli?', 'https://www.rover.com/blog/can-dog-eat-broccoli/', 'Did you know that the top of the broccoli florets are truly flower buds? Maybe that’s why it’s one of the healthiest foods in our diets. Broccoli is rich in vitamins and minerals, a great source of dietary fiber, and delicious when roasted, steamed, or any way you cook it. But can dogs eat broccoli?']
+          ]
+        },
+        {
+          food: 'cauliflower',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/cauliflower.svg',
+          summary: 'Cauliflower is an excellent source of fiber, vitamin K, vitamin C, calcium, and potassium for dogs.',
+          resources: [
+            ['Can Dogs Eat Cauliflower?', 'https://www.rover.com/blog/can-my-dog-eat-cauliflower/', 'Yes! Cauliflower is healthy for your dog to eat and is a good source of fiber, vitamins K, vitamin C, calcium, potassium, and folate. These vitamins support the health of your dog’s vision, blood, liver, muscles, immune system, and more. Fiber is good for your dog’s colon health, weight issues, and bowel issues.'],
+            ['Can Dogs Eat Cauliflower?', 'https://www.littlethings.com/can-dogs-eat-cauliflower', 'Cauliflower is not toxic to dogs, according to Jessica Potosky, doctor of veterinary medicine (DVM). “We don’t recommend feeding them much of it at a time, as anything not a part of the usual diet, especially in excess, can cause gastrointestinal problems, such as nausea, gas or loose stools,” she said. “But a little at a time is fine. A couple of bites of the florets would probably be enough for a small dog, a little more for a larger one.”']
+          ]
+        },
+        {
+          food: 'kiwis',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/kiwis.svg',
+          summary: 'Kiwis are a great snack in moderation for dogs, but they do not provide much nutritional value.',
+          resources: [
+            ['Can Dogs Eat Kiwi?', 'https://www.akc.org/expert-advice/advice/can-dogs-eat-kiwi/', 'Available all year-round and loaded with more vitamin C than an orange and more potassium than a banana, kiwi is a sweet fruit that tastes good and provides an abundance of nutritious benefits. But, can dogs eat kiwi? If you’re snacking on a kiwi, it’s perfectly fine to share with your dog. Just be mindful of a few concerns before you do.'],
+            ['Are Kiwis Safe for Dogs?', 'https://smartdogowners.com/kiwis/', 'The furry brown fruit known today as the kiwi belongs in the genus Actinidia, a group of woody plants that originate from north-central and eastern Asia. Growing as vines or shrubs, these plants produce several types of edible berries that are have been exported worldwide.']
+          ]
+        },
+        {
+          food: 'carrots',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/carrots.svg',
+          summary: 'Carrots can be a great low calorie treat for your dogs to reward them with for good behavior.',
+          resources: [
+            ['Can Dogs Eat Carrots?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-carrots/', 'Carrots offer dog owners an affordable and nutritious snack for their pets. In addition, this vegetable is perfect for rewarding good behavior, without the calorie count associated with biscuits and other treats. Some vets even recommend cold or frozen carrots for teething puppies, as a way to relieve teething discomfort.'],
+            ['Can Dogs Eat Carrots? Are Carrots Good for Dogs?', 'https://www.dogster.com/dog-food/can-dogs-eat-carrots-are-carrots-good-for-dogs', 'The short answer to “Can dogs eat carrots?” is good news. The better news is that not only can dogs eat carrots, but carrots are actually very healthy for dogs. Experts everywhere say carrots are amazing, healthy snacks for our canine friends. Dr. Evan Antin of Conejo Valley Veterinary Hospital in Thousand Oaks, California, agrees. “Carrots are great,” he says. “I feed them to my [dog] Henry every day! They offer a low-calorie source of extra food for hungry dogs, are high in fiber and also help to slow down the progression of dental disease.”']
+          ]
+        },
+        {
+          food: 'lettuce',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/lettuce.svg',
+          summary: 'Given in moderation, lettuce is a great healthy snack for dogs as it\'s roughly around 90 percent water.',
+          resources: [
+            ['Can Dogs Eat Lettuce?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-lettuce/', 'For a lot of Americans, salads are a popular meal option. But can dogs eat lettuce? In general, yes. Lettuce of the romaine, arugula, and iceberg variety do not contain anything that can really harm your dog. After all, it is 90 percent water. It’s also a low-calorie snack that could be a good training treat for an overweight dog. Plus, there’s just something about that crunch that dogs love!'],
+            ['Can My Dog Eat Lettuce?', 'https://www.rover.com/blog/can-my-dog-eat-lettuce/', 'Yes! Romaine, iceberg, and green leaf lettuce are safe for your dog. The greener the lettuce, the healthier it will be for your dog. Lettuce is a great source of vitamin A and K. These vitamins support the health of your dog’s liver, blood, vision, immune function, and cell function.']
+          ]
         }
       ]);
     });
