@@ -363,6 +363,86 @@ exports.seed = function (knex) {
             ['Can Dogs Eat Lettuce?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-lettuce/', 'For a lot of Americans, salads are a popular meal option. But can dogs eat lettuce? In general, yes. Lettuce of the romaine, arugula, and iceberg variety do not contain anything that can really harm your dog. After all, it is 90 percent water. It’s also a low-calorie snack that could be a good training treat for an overweight dog. Plus, there’s just something about that crunch that dogs love!'],
             ['Can My Dog Eat Lettuce?', 'https://www.rover.com/blog/can-my-dog-eat-lettuce/', 'Yes! Romaine, iceberg, and green leaf lettuce are safe for your dog. The greener the lettuce, the healthier it will be for your dog. Lettuce is a great source of vitamin A and K. These vitamins support the health of your dog’s liver, blood, vision, immune function, and cell function.']
           ]
+        },
+        {
+          food: 'peas',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/peas.svg',
+          summary: 'Green peas, such as snow peas, sugar snap peas, and garden, or English peas can be a good snack for dogs, but canned peas should be avoided.',
+          resources: [
+            ['Can Dogs Eat Peas?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-peas/', 'Spring is the season for fresh peas, straight from the garden or farmer’s market. Keeping in mind that fruits and vegetables aren’t necessary to a dog’s diet and should only be an occasional treat, there’s nothing wrong with adding some peas to your dog’s food or offering them as a treat. Peas are often included as an ingredient in commercial dog food.'],
+            ['Can My Dog Eat Green Peas?', 'https://www.rover.com/blog/can-my-dog-eat-green-peas/', 'Yes! Green peas are a healthy treat for your dog as they are high in vitamin A, vitamin K, and various B vitamins. Peas are also a good source of fiber, iron, zinc, potassium, and magnesium. These vitamins and minerals are good for your dog’s vision, skin, digestion, immune system, nerves, heart, and more.']
+          ]
+        },
+        {
+          food: 'salmon',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/salmon.svg',
+          summary: 'Salmon is a great source of omega-3 fatty acids, protein, and is often an ingredient in high quality dog foods.',
+          resources: [
+            ['Can Dogs Eat Salmon?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-salmon/', 'The short answer is yes. Salmon is a great source of omega-3 fatty acids, which support the immune system, may decrease inflammation, and can keep your dog’s coat looking shiny and healthy. It’s also a good protein source. In fact, salmon is a common ingredient in high-quality dog foods. If your dog is allergic to more common sources of protein, like chicken, salmon may be a good alternative.'],
+            ['Can Dogs Eat Salmon? Is Salmon Safe For Dogs?', 'https://dogtime.com/dog-health/83818-can-dogs-eat-salmon', 'Salmon has many dense nutrients that can be beneficial to your dog’s health. For example, it’s high in eicosatetraenoic acid (EPA) and docosahexaenoic acid (DHA), which are both long-chain omega-3 fatty acids. Here are some of the benefits of EPA and DHA consumption for your pup.']
+          ]
+        },
+        {
+          food: 'french fries',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/frenchfries.svg',
+          summary: 'French fries can be high in salt and fat content. Although it may be safe for your pup to have a fry or too, it isn\'t recommended.',
+          resources: [
+            ['Can Dogs Eat French Fries?', 'https://www.dogster.com/dog-food/can-dogs-eat-french-fries', '“The basic principle is that you shouldn’t feed your pet human foods, but foods such as French fries, hot dogs and hamburgers contain excessive amounts of salt and fat for your canine companions,” says Dr. Frederic Gaschen, a specialist in small animal internal medicine and professor at Louisiana State University.'],
+            ['Read This Before Giving Your Dog French Fries!', 'https://canigivemydog.com/french-fries', 'Well, obviously, it is not a great treat. You’d be smart to avoid feeding your dog french fries (at least not regularly) and especially fried potatoes with added oil and salt.']
+          ]
+        },
+        {
+          food: 'hamburgers',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/burgers.svg',
+          summary: 'Plain hamburgers, just the beef, without salt or added seasonings is safe for dogs, but with additions like garlic, onions, etc., can make them very dangerous.',
+          resources: [
+            ['Can My Dog Eat Hamburger?', 'https://www.rover.com/blog/can-dog-eat-hamburger/', 'Yes! Plain hamburger meat, without added salt or spices, is a healthy source of protein for your dog. Cooked hamburger carries a lower risk of food-borne illness, but dogs’ strong stomach acid kills most bacteria. Be sure that there is no onion or garlic cooked into the meat, as both can be fatal to dogs. If you’re feeding your pet your leftovers, remove all condiments and extras so that your pet gets the protein boost without unnecessary sugars.'],
+            ['Can Dogs Eat Hamburger Meat?', 'https://perfectpattyshaperz.com/can-dogs-eat-hamburger-meat/', 'You may think about giving your dog ground beef, but can dogs eat hamburger meat? Yes, you actually can feed your dog plain hamburger meat without added spices including salt and pepper. Hamburger meat, or ground beef, is a good source of protein for your pet. Absolutely do not put any cooked onion or garlic into the meat as can be the fatal outcome for your dog – so no spices at all.']
+          ]
+        },
+        {
+          food: 'pears',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/pears.svg',
+          summary: 'Pears are a great source of fiber, vitamin A, and vitamin C for dogs, but should be given in moderation.',
+          resources: [
+            ['Can Dogs Eat Pears?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-pears/', 'As humans, we love pears, and it is natural to want to share the things we love with our dogs. Sometimes this tendency gets our dogs into trouble. Most pet owners know that not all fruits and veggies are safe for dogs, but can dogs eat pears? Luckily for our canine companions, the answer is yes.'],
+            ['Can My Dog Eat Pears?', 'https://www.rover.com/blog/can-dog-eat-pears/', 'The answer is Yes! Pears are perfectly healthy for dogs, and many dogs love them. They are rich in important nutrients but keep in mind that they are also high in sugar, so they should be used as an occasional treat only.']
+          ]
+        },
+        {
+          food: 'bell peppers',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/bellpeppers.svg',
+          summary: 'Bell peppers are a nutritious treat for your furry companions, packed with essential vitamins and nutrients.',
+          resources: [
+            ['Can Dogs Eat Bell Peppers?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bell-peppers/', 'For pet owners, it can be difficult to keep track of which foods are harmful to dogs. For example, can dogs eat bell peppers? In this instance, the answer is yes. Bell peppers pack a punch when it comes to nutritional value for both you and your furry friend. “They’re not toxic, and they are a healthy alternative snack to share with your dog,” says Dr. Carly Fox, a staff doctor at New York City’s Animal Medical Center.'],
+            ['Can My Dog Eat Red Peppers?', 'https://www.rover.com/blog/can-my-dog-eat-red-peppers/', 'Maybe. Red bell peppers are healthy for dogs and contain high levels of vitamins A, C, E, and lots of antioxidants. While red bell peppers boost your dog’s immune system and reduce inflammation, spicy red peppers are not recommended for your dog.']
+          ]
+        },
+        {
+          food: 'jalapenos',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/jalapenos.svg',
+          summary: 'Because of their spiciness, jalapenos are not recommended because it can be hard for dogs to digest.',
+          resources: [
+            ['Can Dogs Have Jalapenos Safely?', 'https://ultimatehomelife.com/can-dogs-eat-jalapenos/', 'Because Jalapenos are considered to be spicy peppers and not sweet peppers, the answer to that question is NO, canines can’t safely eat Jalapenos without the risk of negative effects taking place.'],
+            ['Read This Before Feeding Your Dog a Jalapeno!', 'https://canigivemydog.com/jalapeno', 'If your dog ate a jalapeno, or food containing jalapenos, without your consent you probably don’t have to worry about any long term problems. You should, however, prepare for some diarrhea and keep an eye on them over the next few hours to see how they’re doing.']
+          ]
+        },
+        {
+          food: 'squash',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/squash.svg',
+          summary: 'Squash is fibrous and can help dogs with bouts of diarrhea.',
+          resources: [
+            ['What Vegetables Can Dogs Eat?', 'https://www.whole-dog-journal.com/food/what-vegetables-can-dogs-eat/', 'Vegetables can be a great addition to your dog\'s diet if you stick to those that are safe and hand out an appropriate amount. So which vegetables are good for dogs? Let\'s explore the best vegetables for dogs by veggie type.'],
+            ['Can My Dog Eat Butternut Squash?', 'https://www.rover.com/blog/can-my-dog-eat-butternut-squash/', 'Butternut squash is a popular fall vegetable for good reason: its sweet, nutty flavor, long shelf life, and versatility. If you’re making butternut squash soup, roasted butternut squash, or even butternut squash pie (we hear it’s superior to pumpkin!), you may be wondering if your dog can have a taste of all that squash goodness.']
+          ]
         }
       ]);
     });
