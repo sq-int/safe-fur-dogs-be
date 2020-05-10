@@ -4,7 +4,8 @@ const db = require('../../db/connect');
 module.exports = {
     addFood,
     getFood,
-    getFoodByName
+    getFoodByName,
+    like
 }
 
 /* add a food to the database */
@@ -21,4 +22,9 @@ function getFood() {
 function getFoodByName(food) {
     return db('food')
         .where('food', '=', food);
+}
+
+function like(food) {
+    return db('food')
+        .where('food', 'like', `%${food}%`);
 }
