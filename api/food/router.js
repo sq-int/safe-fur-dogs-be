@@ -34,10 +34,15 @@ router.get('/:name', (req, res) => {
                 // res.status(400).json({ error: 'That food could not be found in the database.' });
                 Food.like(foodQuery)
                     .then(found => {
-                        res.status(200).json(found);
+                        if (found.length) {
+                            res.status(200).json(found);
+                        }
+                        else {
+                            res.status(404).json({ error: 'No suggestions found. Try adding the food.' });
+                        }
                     })
                     .catch(err => {
-                        res.status(404).json({ error: 'no suggestions could be found. try adding the food.' });
+                        res.status(500).json({ error: 'Something went wrong on our end.' });
                     })
             }
         })
