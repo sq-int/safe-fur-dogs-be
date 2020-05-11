@@ -31,7 +31,14 @@ router.get('/:name', (req, res) => {
                 res.status(200).json(found);
             }
             else {
-                res.status(400).json({ error: 'That food could not be found in the database.' });
+                // res.status(400).json({ error: 'That food could not be found in the database.' });
+                Food.like(foodQuery)
+                    .then(found => {
+                        res.status(200).json(found);
+                    })
+                    .catch(err => {
+                        res.status(404).json({ error: 'no suggestions could be found. try adding the food.' });
+                    })
             }
         })
         .catch(err => {
@@ -53,17 +60,17 @@ router.post('/', restricted, (req, res) => {
         })
 });
 
-router.get('/like/:name', (req, res) => {
+// router.get('/like/:name', (req, res) => {
 
-    const foodQuery = req.params.name.slice(0, req.params.name.length - 2);
-    
-    Food.like(foodQuery)
-        .then(found => {
-            res.status(200).json(found);
-        })
-        .catch(err => {
-            res.status(400).json(err);
-        })
-})
+//     const foodQuery = req.params.name.slice(0, req.params.name.length - 2);
+
+//     Food.like(foodQuery)
+//         .then(found => {
+//             res.status(200).json(found);
+//         })
+//         .catch(err => {
+//             res.status(400).json(err);
+//         })
+// })
 
 module.exports = router;
