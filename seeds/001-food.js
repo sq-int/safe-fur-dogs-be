@@ -443,6 +443,86 @@ exports.seed = function (knex) {
             ['What Vegetables Can Dogs Eat?', 'https://www.whole-dog-journal.com/food/what-vegetables-can-dogs-eat/', 'Vegetables can be a great addition to your dog\'s diet if you stick to those that are safe and hand out an appropriate amount. So which vegetables are good for dogs? Let\'s explore the best vegetables for dogs by veggie type.'],
             ['Can My Dog Eat Butternut Squash?', 'https://www.rover.com/blog/can-my-dog-eat-butternut-squash/', 'Butternut squash is a popular fall vegetable for good reason: its sweet, nutty flavor, long shelf life, and versatility. If you’re making butternut squash soup, roasted butternut squash, or even butternut squash pie (we hear it’s superior to pumpkin!), you may be wondering if your dog can have a taste of all that squash goodness.']
           ]
+        },
+        {
+          food: 'lemons',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/lemons.svg',
+          summary: 'Lemons are safe to consume in moderation, but provide no nutritional value, and the acidity can possibly cause digestion and other issues.',
+          resources: [
+            ['Can Dogs Eat Lemons?', 'https://www.purina.com/articles/dog/nutrition/can-dogs-eat-lemons', 'Because your dog trusts you, he may taste or even eat a lemon if you give it to him. But lemons and their flavor is one your dog would normally avoid. A dog who licks or eats a lemon may have a strong reaction to the taste. While it may seem comical, feeding your dog a lemon isn’t a joke.'],
+            ['Lemon', 'https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon', 'Clinical Signs: Vomiting, diarrhea, depression; potential dermatitis. Fruit is edible, skins and plant material can cause problems.']
+          ]
+        },
+        {
+          food: 'marshmallows',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/marshmellows.svg',
+          summary: 'Although marshmallows are not toxic for dogs, they provide no nutritional value, and are made from sugar, corn syrup, gelatin, vanilla extract, and coated with either cornstarch or confectioners’ sugars, which are not healthy.',
+          resources: [
+            ['Can Dogs Eat Marshmallows?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-marshmallows/', 'Marshmallows are one of those treats that can be hard to resist — and it’s nearly impossible to eat just one. But, can dogs eat marshmallows? The answer is no. Though not all marshmallows are toxic to dogs, they certainly aren’t good for your canine companion. Made from sugar, corn syrup, gelatin, vanilla extract, and coated with either cornstarch or confectioners’ sugar, marshmallows contain very little, if any, nutritional value or health benefits.'],
+            ['Can Dogs Eat Marshmallows? Are Marshmallows Safe For Dogs?', 'https://dogtime.com/dog-health/dog-food-dog-nutrition/86465-can-dogs-eat-marshmallows', 'Can dogs eat marshmallows? You may be asking this because your dog accidentally ate a marshmallow you dropped on the floor, or maybe you want to share a sweet snack with your pooch. Humans can eat marshmallows, so are they also safe for dogs?']
+          ]
+        },
+        {
+          food: 'limes',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/limes.svg',
+          summary: 'Limes are toxic for dogs and should not be consumed.',
+          resources: [
+            ['Can My Dog Eat Limes?', 'https://www.rover.com/blog/can-dog-eat-limes/', 'No. For one thing, dogs don’t enjoy the taste of sour citrus fruits like limes and lemons. More importantly, limes are toxic to dogs. Contact with or consumption of any part of the lime — leaves, peel, or fruit — can cause illness.'],
+            ['Can Dogs Eat Limes?', 'https://pethority.com/dogs/can-dogs-eat-limes/', 'Unfortunately, there are many videos on the internet that show dogs eating citrus fruits. Although these videos seem cute, and harmless, they are actually endangering the lives of pets. The ASPCA lists limes as being toxic to dogs, listing possible side effects of lime consumption as vomiting, diarrhea, depression, and potential photosensitivity. Unfortunately, over 85% of dog owners do not know that citrus fruits can be dangerous for their four legged friends.']
+          ]
+        },
+        {
+          food: 'grapefruits',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/grapefruits.svg',
+          summary: 'Although the flesh of grapefruits are safe for dogs, they do not provide nutritional value, and the high levels of acidity can cause digestive issues for your dog. They should be avoided.',
+          resources: [
+            ['Can Dogs Eat Grapefruit?', 'https://www.purina.com/articles/dog/nutrition/can-dogs-eat-grapefruit', 'Dogs can eat the flesh of grapefruit. But most dogs won’t be tempted by grapefruit because of the taste. “Dogs can taste bitter flavors, and they don’t like it. It is generally always a negative,” explains Purina Senior Nutritionist Jan Dempsey. That means your dog may never try the fruit, and that’s fine. If your dog avoids eating grapefruit, it could be for the best. Grapefruit flesh is very acidic and can cause digestive issues for dogs.'],
+            ['Read This Before Feeding Your Dog Grapefruit!', 'https://canigivemydog.com/grapefruit', 'First off: This sour fruit is very acidic tasting (or extremely bitter), though that isn’t actually why grapefruit should be off-limits to dogs.']
+          ]
+        },
+        {
+          food: 'almonds',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/almonds.svg',
+          summary: 'Although almonds are not as toxic as some other nuts, dogs have trouble digesting them well and can cause complications and obstructions.',
+          resources: [
+            ['Can Dogs Eat Almonds?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-almonds/', 'Almonds are a great snack for humans. But, can dogs eat almonds? The answer is no. While they aren’t as toxic as some nuts, it’s one of those foods canine companions can’t digest as easily as people.'],
+            ['Can Dogs Eat Almonds? Are Almonds Safe For Dogs?', 'https://dogtime.com/dog-health/dog-food-dog-nutrition/59427-can-dogs-eat-almonds', 'While almonds aren’t likely to be toxic, they aren’t handled well by dogs’ digestive systems and can cause obstructions. They also present a choking hazard and other dangers to your dog’s health, especially if they are salted or seasoned.']
+          ]
+        },
+        {
+          food: 'walnuts',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/walnuts.svg',
+          summary: 'Walnuts are not poisonous, but are not easily digested by dogs and can cause major gastrointestinal issues. Avoid them.',
+          resources: [
+            ['Can Dogs Eat Walnuts?', 'https://www.cuteness.com/13707559/can-dogs-eat-walnuts', 'While technically not poisonous to dogs, walnuts can be the cause of major gastrointestinal issues. They can cause everything from gastric intestinal upset (a fancy term for an upset stomach) to stomach blockages, which are quite serious. Walnuts take a long time for dogs\' stomachs to break down, which is why they can lead to blockages.'],
+            ['Can My Dog Eat Walnuts?', 'https://www.rover.com/blog/can-my-dog-eat-walnuts/', 'No! Walnuts aren’t safe for your dog especially when they become moldy. Moldy walnuts contain tremorgenic mycotoxins that can lead to seizures or neurological issues. Also, nuts of any kind can give your dog an upset stomach or cause an intestinal obstruction leading to more serious digestive issues.']
+          ]
+        },
+        {
+          food: 'pistachios',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/pistachios.svg',
+          summary: 'The high fat content in pistachios can cause digestive issues and cause complications in dogs. They should be avoided.',
+          resources: [
+            ['Can Dogs Have Pistachios? Know the Risks', 'https://wildearth.com/blogs/dog-knowledge/can-dogs-have-pistachios#.XrmEixNKiL8', 'One thing to know about pistachios is that they are very high in fat. While pistachios have certain health benefits and are ultimately not toxic to dogs, their high fat content could make them pretty sick if they have them in large amounts. According to the ASPCA, the high fat content in nuts like pistachios, pecans, and macadamia nuts can cause vomiting and diarrhea in dogs.'],
+            ['Can My Dog Eat Pistachios?', 'https://www.rover.com/blog/can-my-dog-eat-pistachios/', 'Maybe not. Pistachios aren’t inherently toxic to dogs, but nuts aren’t a recommended treat for our furry friends. They’re high in fat and can contain a mold that puts your dog at risk for liver damage. Nuts can also give your dog an upset stomach or cause an intestinal obstruction leading to more serious digestive issues. In addition, pistachio shells are a choking hazard.']
+          ]
+        },
+        {
+          food: 'pomegranates',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/pomegranates.svg',
+          summary: 'Pomegranates are not toxic to dogs and can be safe in moderation, but should be closely monitored when given to dogs.',
+          resources: [
+            ['Can My Dog Eat Pomegranate?', 'https://www.rover.com/blog/can-dog-eat-pomegranate/', 'Fresh, jewel-colored pomegranates are popular at the holidays for good reason: their seeds make a great garnish, and the fruits themselves are a stunning centerpiece. Not only that, but they’re a staple in Persian food—and their juice has become increasingly available in local grocery stores. Humans benefit from pomegranate, but what about dogs? Can your dog enjoy a pomegranate as a snack? Well, maybe. We did some digging into the research, and it turns out to be a little more complex than a simple yes or no.'],
+            ['Read This Before Giving Your Dog Pomegranate!', 'https://canigivemydog.com/pomegranate', 'Even humans often experience gastrointestinal irritation from eating pomegranate. Likewise, your dog could easily have a bit of abdominal pain afterwards.']
+          ]
         }
       ]);
     });
