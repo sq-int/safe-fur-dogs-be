@@ -523,6 +523,86 @@ exports.seed = function (knex) {
             ['Can My Dog Eat Pomegranate?', 'https://www.rover.com/blog/can-dog-eat-pomegranate/', 'Fresh, jewel-colored pomegranates are popular at the holidays for good reason: their seeds make a great garnish, and the fruits themselves are a stunning centerpiece. Not only that, but they’re a staple in Persian food—and their juice has become increasingly available in local grocery stores. Humans benefit from pomegranate, but what about dogs? Can your dog enjoy a pomegranate as a snack? Well, maybe. We did some digging into the research, and it turns out to be a little more complex than a simple yes or no.'],
             ['Read This Before Giving Your Dog Pomegranate!', 'https://canigivemydog.com/pomegranate', 'Even humans often experience gastrointestinal irritation from eating pomegranate. Likewise, your dog could easily have a bit of abdominal pain afterwards.']
           ]
+        },
+        {
+          food: 'mangos',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/mangos.svg',
+          summary: 'Mango is high in fiber, as well as vitamin A, B6, C, and E, making it quite nutritious for both humans and dogs. The snack is also sweet, so your dog will probably love it. When ripe, the fruit is soft, but you should still cut it into small pieces to avoid a choking hazard.',
+          resources: [
+            ['Can My Dog Eat Mangos?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-mango/', 'Have you ever wondered, “Can dogs eat mango?” The answer is yes, they can. This fruit is full of vitamins and safe for your pup to consume, as long as it’s peeled and the pit is removed. It’s important to note that you should only give your canine companion mango in moderation.'], 
+            ['Can My Dog Eat Mango?', 'https://www.rover.com/blog/can-dog-eat-mango/', 'Mangoes are a tropical treat that we love in smoothies, frozen treats, and as fresh, juicy snacks. Sharing our favorite foods with our dogs is a great way to bond and enjoy special moments together. But can dogs eat mango? And if so, are they healthy for our furry friends?']
+          ]
+        },
+        {
+          food: 'cucumbers',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/cucumber.svg',
+          summary: 'Cucumbers are an excellent, low calorie, crunchy snack that dogs will love.',
+          resources: [
+            ['Can Dogs Eat Cucumbers?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-cucumbers/', 'Cucumbers are perfectly safe for dogs to eat, and offer a low-calorie, crunchy snack that many dogs love. Cucumbers only contain about 8 calories per one-half cup of slices, compared to the 40 calories in a single medium Milk Bone biscuit, and are very low in sodium and fat.'],
+            ['Can My Dog Eat Cucumbers?', 'https://www.rover.com/blog/can-dog-eat-cucumbers/', 'Happily, yes! Though as with everything, cucumbers should be eaten in moderation. Sliced cucumbers are a great treat for your dog, and can be for you too. On hot summer days, they can even help keep your pet hydrated.']
+          ]
+        },
+        {
+          food: 'celery',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/celery.svg',
+          summary: 'Celery is a great low calorie, weight loss treat that can also help freshen your dog\'s breath.',
+          resources: [
+            ['Can Dogs Eat Celery?​', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-celery/', 'Celery is listed among the vegetables that are safe for dogs by multiple sources, including the veterinary websites Vetstreet.com and Clinician’s Brief, and is often recommended as a weight-loss treat. Celery is very low in fat and cholesterol and is an excellent source of fiber; vitamins A, C, and K; folate; potassium; and manganese. The crunchy veggie also might freshen up your dog’s breath, which is all the incentive some dog owners need.'],
+            ['Can Dogs Eat Celery? Is Celery Good for Dogs?', 'https://www.dogster.com/dog-food/can-dogs-eat-celery-is-celery-good-for-dogs', 'According to the Agricultural Marketing Resource Center (AMRC), celery is part of the parsley family. Celery likely started growing about 3,000 years ago in the Mediterranean region. This crunchy green vegetable is commonly used as a garnish, in salads, in soups and in other meals. Celery is also commonly consumed as a portable snack. The long, fibrous stalks are topped with leaves.']
+          ]
+        },
+        {
+          food: 'sweet potatoes',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/sweetpotatoes.svg',
+          summary: 'Although once thought to be safe, recent research suggests that sweet potatoes should not be part of a dog\'s diet. Sweet potatoes should be given with caution.',
+          resources: [
+            ['Can Dogs Eat Sweet Potatoes?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-sweet-potatoes/', 'From the UC Davis School of Medicine: “The U.S. Food and Drug Administration recently issued an alert about reports of canine dilated cardiomyopathy (DCM) in dogs eating certain pet foods containing peas, lentils, other legume seeds, or potatoes as main ingredients. DCM is a disease of the heart muscle that leads to reduced heart pumping function and increased heart size. The alterations in heart function and structure can result in severe consequences such as congestive heart failure or sudden cardiac death. While the most common cause of DCM is genetic, on rare occasions other factors can also result in the condition, particularly in breeds that are not frequently affected.”'],
+            ['Can Dogs Eat Sweet Potato?', 'https://www.petguide.com/health/dog/can-dogs-eat-sweet-potato/', 'It’s no secret that dogs have voracious appetites and, quite frankly, low standards when it comes to food. Our four-legged companions wouldn’t have a problem eating a few months old Dorito they found under the couch cushion or nibbling on an old sock, so it’s no wonder that they’re always up for sharing whatever is on their human’s plate. And, since canines are omnivores, quite often, they get to mooch off their owners for a bite or two of their food that they can safely eat.']
+          ]
+        },
+        {
+          food: 'raspberries',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/raspberries.svg',
+          summary: 'The anti-inflammatory properties and antioxidants make raspberries a healthy treat in moderation.',
+          resources: [
+            ['Can Dogs Eat Raspberries?', 'https://www.akc.org/expert-advice/nutrition/can-my-dog-eat-raspberries/', 'When it comes to fruit and vegetables, it can be difficult for dog owners to remember which foods are okay for their canine companions to consume and which ones could prove fatal. So, where do raspberries fall? Can dogs eat raspberries? Yes, raspberries are safe for dogs to eat, but they should be given in moderation.'],
+            ['Can My Dog Eat Raspberries', 'https://www.rover.com/blog/can-dog-eat-raspberries/', 'Yes, in moderation. Dogs are omnivores, and they benefit from many different fruits and vegetables for the same reasons humans do— these foods are low in fat and sugar, and high in vitamins and fiber.']
+          ]
+        },
+        {
+          food: 'blueberries',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/blueberries.svg',
+          summary: 'Blueberries are a great source of vitamins, minerals, and antioxidants, and make a great treat for big and small dogs.',
+          resources: [
+            ['Are Blueberries Good for Dogs?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-blueberries/', 'Blueberries are low in calories and contain high amounts of vitamin C, fiber, and phytochemicals (naturally occurring chemical compounds found in plants). Vitamin C and fiber are vital components of proper canine nutrition. Phytochemicals are linked to several aspects of health, including the ability to fight cancer in humans.'],
+            ['Can Dogs Eat Blueberries?', 'https://www.purina.com/articles/dog/nutrition/can-dogs-eat-blueberries', 'Yes, blueberries are a great low-calorie treat for dogs. They also contain antioxidants, fiber and vitamins C and K. These nutrients support the immune system and contribute to overall health. Adding blueberries to your dog’s diet is a great way to help keep him happy and healthy.']
+          ]
+        },
+        {
+          food: 'cherries',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/cherry.svg',
+          summary: 'Although the flesh of the fruit is safe for dogs, the leaves, stem, and pits contain cyanide and can be fatal when consumed. Avoid feeding your dogs cherries just in case.',
+          resources: [
+            ['Is It Safe for Dogs to Have Cherries?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-have-cherries/', 'If your dog gets his paws on a whole cherry when you’re not looking, don’t panic. A single cherry pit will not cause cyanide poisoning. But you should look out for symptoms of intestinal blockage, including vomiting, decreased appetite, constipation, and decreased fecal production.'],
+            ['Can Dogs Eat Cherries?', 'https://www.purina.com/articles/dog/nutrition/can-dogs-eat-cherries', 'What’s worse is the cherry pit, stem and leaves all contain cyanide. This is toxic to dogs if ingested in large enough quantities. A single cherry pit and stem often isn’t enough to cause cyanide poisoning, but there’s no reason to take the risk. Additionally, if ingested, the pits can create an intestinal obstruction.']
+          ]
+        },
+        {
+          food: 'plums',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/plums.svg',
+          summary: 'Plums are high in sugar content and the pits can cause cyanide poisoning. They should be avoided.',
+          resources: [
+            ['Can My Dog Eat Plums?', 'https://www.rover.com/blog/can-dog-eat-plums/', 'Maybe. If you’ve given your dog a few bites of sliced plum, she’ll be fine. But if your dog has eaten an entire plum, with the pit, there’s some reason for concern. Plum flesh is safe, but it’s high in sugar content, so it isn’t the best snack for dogs. Plum pits are have a sharp end and can cause digestive obstruction. The pit also contains cyanide, so if your dog has crushed the pit with her teeth, there is some added risk.'],
+            ['Plum', 'https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/plum', 'Clinical Signs: Stems, leaves, seeds contain cyanide, particularly toxic in the process of wilting: brick red mucous membranes, dilated pupils, difficulty breathing, panting, shock.']
+          ]
         }
       ]);
     });
