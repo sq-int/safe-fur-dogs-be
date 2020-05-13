@@ -603,6 +603,46 @@ exports.seed = function (knex) {
             ['Can My Dog Eat Plums?', 'https://www.rover.com/blog/can-dog-eat-plums/', 'Maybe. If you’ve given your dog a few bites of sliced plum, she’ll be fine. But if your dog has eaten an entire plum, with the pit, there’s some reason for concern. Plum flesh is safe, but it’s high in sugar content, so it isn’t the best snack for dogs. Plum pits are have a sharp end and can cause digestive obstruction. The pit also contains cyanide, so if your dog has crushed the pit with her teeth, there is some added risk.'],
             ['Plum', 'https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/plum', 'Clinical Signs: Stems, leaves, seeds contain cyanide, particularly toxic in the process of wilting: brick red mucous membranes, dilated pupils, difficulty breathing, panting, shock.']
           ]
+        },
+        {
+          food: 'lamb',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/lamb.svg',
+          summary: 'Lamb is packed with vitamin B12 and essential amino acids. It\'s high in protein and is a great food for dogs.',
+          resources: [
+            ['Can My Dog Eat Lamb?', 'https://www.rover.com/blog/can-my-dog-eat-lamb/', 'Yes! Lamb is a great source of protein which helps build and maintain body tissue. It’s full of vitamin B12, niacin, essential amino acids, and dietary fats that are important to sustain your dog’s energy and keep her hair and skin healthy. Lamb is also good for dogs that have food sensitivities or are allergic to other types of meats.'],
+            ['Dog food myth No. 2: “Lamb is hypoallergenic.”', 'https://www.akc.org/expert-advice/nutrition/dog-food-myths/', 'There is nothing inherently less allergenic in one meat compared to another. Lamb was initially used in hypoallergenic dog foods because it was a meat most dogs had not eaten before, and therefore were unlikely to have developed food allergies to. Now, with so many people feeding lamb as a regular diet, manufacturers have had to find more exotic meat sources such as duck or bison.']
+          ]
+        },
+        {
+          food: 'venison',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/venison.svg',
+          summary: 'Although venison has less protein than beef, it also has less fat and cholesterol, making it a great option for dogs.',
+          resources: [
+            ['Healthy Foods Checklist: Venison for Dogs', 'https://www.petmd.com/dog/nutrition/healthy-foods-checklist-venison-dogs', 'Venison is a good source of B vitamins and minerals such as zinc, phosphorous, and iron. It helps dogs maintain healthy energy levels and many dogs enjoy the taste.'],
+            ['Can Dogs Eat Venison?', 'https://www.thebarkspace.com/can-dogs-eat-venison/', 'Yes, dogs can eat venison. This meat, while less common than other protein sources for dogs like beef, chicken, or salmon, to name a few, does offer dogs a number of potential health benefits.']
+          ]
+        },
+        {
+          food: 'duck',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/duck.svg',
+          summary: 'Rich in iron, duck provides a lean protein source for dogs.',
+          resources: [
+            ['Healthy Foods Checklist: Duck for Dogs', 'https://www.petmd.com/dog/nutrition/healthy-foods-checklist-duck-dogs', 'When today’s pet parents browse through the aisles of pet food stores, they have a wide variety of options to choose from when it comes to protein sources for their dogs. The main protein options for pets used to be chicken or beef, and while those two meats are still popular, there are other novel proteins that pet parents can try.'],
+            ['THE BENEFITS FOR DOGS OF EATING DUCK MEAT', 'https://www.hypropremium.com.au/the-benefits-for-dogs-of-eating-duck-meat/', 'Against most people’s beliefs duck is actually low in saturated fat. In addition, it provides a rich source of B vitamins along with plenty of phosphorous, which is good for bones and teeth, and potassium, which enables enzymes, muscles, and nerves to function properly.']
+          ]
+        },
+        {
+          food: 'asparagus',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/asparagus.svg',
+          summary: 'Asparagus is safe for dogs to consume, but it is not recommended because it provides little nutritional value, and it can be difficult for your dog to digest. The asparagus fern part of the plant is also toxic to dogs.',
+          resources: [
+            ['Can Dogs Eat Asparagus?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-asparagus/', 'First, asparagus stalks are quite tough. We humans don\'t usually eat raw asparagus because it would be very difficult to chew. Dogs can also have this difficulty. To avoid the risk of your dog trying to swallow the asparagus whole and possibly choking, you should chop it up into small pieces before you feed it to him (though we don\'t recommend it).'],
+            ['Can My Dog Eat Asparagus?', 'https://www.rover.com/blog/can-dog-eat-asparagus/', 'Yes, but you have to be careful. Dogs can eat the part of the asparagus that people eat–the tender, cooked stalk, and tips. However, raw asparagus can be difficult for dogs to digest, and whole asparagus stalks can present a choking hazard.']
+          ]
         }
       ]);
     });
