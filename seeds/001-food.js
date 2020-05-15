@@ -643,6 +643,16 @@ exports.seed = function (knex) {
             ['Can Dogs Eat Asparagus?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-asparagus/', 'First, asparagus stalks are quite tough. We humans don\'t usually eat raw asparagus because it would be very difficult to chew. Dogs can also have this difficulty. To avoid the risk of your dog trying to swallow the asparagus whole and possibly choking, you should chop it up into small pieces before you feed it to him (though we don\'t recommend it).'],
             ['Can My Dog Eat Asparagus?', 'https://www.rover.com/blog/can-dog-eat-asparagus/', 'Yes, but you have to be careful. Dogs can eat the part of the asparagus that people eat–the tender, cooked stalk, and tips. However, raw asparagus can be difficult for dogs to digest, and whole asparagus stalks can present a choking hazard.']
           ]
+        },
+        {
+          food: 'beer',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/beer.svg',
+          summary: 'Alcohol is dangerous for dogs as they are more susceptible to alcohol poisoning than humans. Their livers are not designed to process alcohol, so it should be avoided.',
+          resources: [
+            ['Can Dogs Drink Beer?', 'https://www.rover.com/blog/can-dog-drink-beer/', 'You may know a dog owner who shares a beer with their pet from time to time without any noticeable negative effects—and some dogs love the taste of beer. But can dogs drink beer?'],
+            ['Can Dogs Drink Beer, Wine or Other Types of Alcohol?', 'https://www.dogster.com/dog-health-care/can-dogs-drink-beer-wine-alcohol-ethanol-hops-grapes-poisoning-toxicity', 'A dog posing with a glass of beer or wine is cute — and sure to get you tons of likes and comments on social media. But, can dogs drink beer? Can dogs drink wine? And can dogs drink any type of alcohol? Let’s take a look at dogs and beer, wine and other types of alcohol.']
+          ]
         }
       ]);
     });
