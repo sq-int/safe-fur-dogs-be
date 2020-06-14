@@ -30,8 +30,8 @@ server.use('/api/request', requestRouter);
 /* endpoints */
 
 // test //
-server.get('/', (req, res) => {
-    res.status(200).json({ api: 'online' });
+server.get('/wakeup', (req, res) => {
+    res.send('<h2>WAKE ME UP</h2>');
 });
 
 module.exports = server;
