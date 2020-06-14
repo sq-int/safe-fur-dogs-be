@@ -653,6 +653,76 @@ exports.seed = function (knex) {
             ['Can Dogs Drink Beer?', 'https://www.rover.com/blog/can-dog-drink-beer/', 'You may know a dog owner who shares a beer with their pet from time to time without any noticeable negative effects—and some dogs love the taste of beer. But can dogs drink beer?'],
             ['Can Dogs Drink Beer, Wine or Other Types of Alcohol?', 'https://www.dogster.com/dog-health-care/can-dogs-drink-beer-wine-alcohol-ethanol-hops-grapes-poisoning-toxicity', 'A dog posing with a glass of beer or wine is cute — and sure to get you tons of likes and comments on social media. But, can dogs drink beer? Can dogs drink wine? And can dogs drink any type of alcohol? Let’s take a look at dogs and beer, wine and other types of alcohol.']
           ]
+        },
+        {
+          food: 'raisins',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/Raisins.svg',
+          summary: 'Raisins and grapes are highly toxic for dogs and should be avoided.',
+          resources: [
+            ['Are Grapes Bad for Dogs?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-grapes', 'Can dogs eat grapes? The answer (and this goes for raisins, too, which are just dried grapes) is easy: No. Grapes and raisins are known to be highly toxic to dogs, though research has yet to pinpoint exactly which substance in the fruit causes this reaction. Because of that, peeled or seedless grapes should also be avoided.'],
+            ['Grape, Raisin, and Currant Poisoning in Dogs', 'https://vcahospitals.com/know-your-pet/grape-raisin-and-currant-poisoning-in-dogs', 'Recently, veterinarians discovered that grapes, raisins and currants (fruits from Vitis species) can cause kidney failure in dogs. It is unclear whether this is a new problem, or if the toxic nature of grapes and raisins became recognized after the establishment of a computerized animal toxicity database about 25 years ago. Whatever the case, the number of identified cases of illness or death in dogs after they have eaten raisins or grapes is on the rise.']
+          ]
+        },
+        {
+          food: 'whip cream',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/WhipCream.svg',
+          summary: 'Although whip cream is safe, it should only be given in moderation due to its fattiness.',
+          resources: [
+            ['Whipped Cream for a Pet Dog? Read This First!', 'https://canigivemydog.com/whipped-cream', 'Does your dog get whipped into a frenzy at the sight of whipped cream? This fluffy sweet treat is a tasty topping. But for a pet pooch? Here\’s the deal.'],
+            ['Can Dogs Eat Whipped Cream?', 'https://www.cuteness.com/13722515/can-dogs-eat-whipped-cream', 'With all the delicious foods out there, it is only reasonable to want to share them with your best friend So if the barista at your favorite coffee shop asks, "would you like whipped cream on that?" shouldn\'t he ask your doggo as well? Absolutely!']
+          ]
+        },
+        {
+          food: 'coffee',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/coffee.svg',
+          summary: 'Coffee has a high amount of caffeine, which is bad for dogs. They don\'t need a cup of joe to get energized!',
+          resources: [
+            ['Caffeine Toxicity in Pets', 'https://vcahospitals.com/know-your-pet/caffeine-toxicity-in-pets', 'We may start the morning with a jolt of caffeine, but our pets don’t need a cup of coffee to get their day going. In fact, they usually wake up tail wagging, ready to go. And if they need a rest later on, they don’t feel the least bit guilty about settling down for a little nap on the couch instead of an afternoon cup of joe. Why shouldn’t they enjoy an afternoon siesta? They don’t have to study for a test, cook dinner, or finish a business report on schedule.'],
+            ['IS CAFFEINE POISONOUS TO DOGS?', 'https://www.petpoisonhelpline.com/pet-safety-tips/is-caffeine-poisonous-to-dogs/', 'Pets are more sensitive to the effects of caffeine than people are. While 1-2 laps of coffee, tea or soda will not contain enough caffeine to cause poisoning in most pets, the ingestion of moderate amounts of coffee grounds, tea bags or 1-2 diet pills can easily cause death in small dogs or cats.']
+          ]
+        },
+        {
+          food: 'pancakes',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/pancakes.svg',
+          summary: 'Plain pancakes can be safe in moderation, but pancakes with any toppings should be avoided.',
+          resources: [
+            ['Can My Dog Eat Pancakes?', 'Maybe. Plain pancakes in moderation are unlikely to harm your dog, although some pets have wheat allergies or sensitivities to grains. However, leftover pancakes with toppings added—including sweets like syrup—are less healthy for dogs, and should generally be avoided. Dogs can eat certain fruits like banana and blueberries, while others (like grapes) are toxic.', 'https://www.rover.com/blog/can-dog-eat-pancakes'],
+            ['Can Dogs Eat Pancakes?', 'https://pethority.com/dogs/can-dogs-eat-pancakes/#contentAnchor', 'In short, if you are wondering if your dog can eat pancakes, the answer is yes. However you need to read the ingredients first. Although plain pancakes wont hurt your dog, if the pancakes contain other ingredients like chocolate chips, they can be toxic.']
+          ]
+        },
+        {
+          food: 'waffles',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/waffles.svg',
+          summary: 'Plain waffles in moderation can be safe, but they do have a high sugar content, so be mindful of feeding your dog waffles. Any waffles with extra toppings should also be avoided.',
+          resources: [
+            ['Can Dogs Eat Waffles?', 'https://www.animalhub.com/can-dogs-eat-waffles/', 'Waffles are some of the most delicious food in this planet. Most of the people in various parts of the world eat this particular food. Have you ever wondered if your dog will love them? Of course, you should be cautious when you are going to feed your dog something that you don’t know if it will do your dog any good. Before you feed your dog waffles, you should ask first if “can dogs eat waffles?”'],
+            ['Can Dogs Eat Waffles?', 'https://allpetmagazine.com/can-dogs-eat-waffles/', 'Can dogs eat waffles? And are waffles good or bad for dogs? The quick answer is that waffles generally are not toxic to dogs, unless they contain additives like chocolate or xylitol, which are toxic to dogs. However, as waffles pack a lot of calories but few nutrients, they still do not make the best treats for dogs.']
+          ]
+        },
+        {
+          food: 'ginger',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/ginger.svg',
+          summary: 'Ginger in moderate doses is safe for dogs, and its antioxidants can also help with motion sickness, blood circulation, nausea, gastrointestinal problems, and bloat.',
+          resources: [
+            ['Can My Dog Eat Ginger?', 'https://www.rover.com/blog/can-my-dog-eat-ginger', 'Yes! Ginger is safe for your dog to eat in small doses. It contains many antioxidants that can support dogs with motion sickness, blood circulation, nausea, gastrointestinal problems, and bloat. Ginger is anti-inflammatory and also help dogs with arthritis.'],
+            ['Ginger', 'https://vcahospitals.com/know-your-pet/ginger', 'Ginger is a well-known tropical herb whose root is used in both Traditional Chinese Medicine and Western Herbal Medicine. The fresh root may be used, or it may be prepared as a tincture, powder, tablet, or tea. In many cases, clinical effects with alcohol extracts are superior to results achieved with teas and powders.']
+          ]
+        },
+        {
+          food: 'clams',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/clams.svg',
+          summary: 'Clams are an excellent source of protein and omega-3 fatty acids.',
+          resources: [
+            ['Can My Dog Eat Clams?', 'https://www.rover.com/blog/can-dog-eat-clams/', 'Protein helps your pet maintain healthy muscles. Omega-3s boost all aspects of health, decreasing inflammation and reducing the risk of illness. Zinc promotes healthy joints, iron maintains energy levels, and magnesium aids in the absorption of other vitamins and minerals.'],
+            ['Are Clams Bad for Dogs?', 'https://dogcare.dailypuppy.com/clams-bad-dogs-2236.html', 'Whatever you\'re eating, your doggie will probably beg you for a little -- or perhaps not so little -- taste. Clams are no exception. Before you ever allow your dog to eat any people food, however, make sure it\'s 100 percent doggie-friendly. Under the right circumstances, clams are OK.']
+          ]
         }
       ]);
     });
