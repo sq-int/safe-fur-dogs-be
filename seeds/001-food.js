@@ -723,6 +723,16 @@ exports.seed = function (knex) {
             ['Can My Dog Eat Clams?', 'https://www.rover.com/blog/can-dog-eat-clams/', 'Protein helps your pet maintain healthy muscles. Omega-3s boost all aspects of health, decreasing inflammation and reducing the risk of illness. Zinc promotes healthy joints, iron maintains energy levels, and magnesium aids in the absorption of other vitamins and minerals.'],
             ['Are Clams Bad for Dogs?', 'https://dogcare.dailypuppy.com/clams-bad-dogs-2236.html', 'Whatever you\'re eating, your doggie will probably beg you for a little -- or perhaps not so little -- taste. Clams are no exception. Before you ever allow your dog to eat any people food, however, make sure it\'s 100 percent doggie-friendly. Under the right circumstances, clams are OK.']
           ]
+        },
+        {
+          food: 'pecans',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/pecans.svg',
+          summary: 'Pecans, especially moldy ones, are very dangerous for your dog. They can cause intestinal obstruction, to even seizures and neurological issues.',
+          resources: [
+            ['Can My Dog Eat Pecans?', 'https://www.rover.com/blog/can-my-dog-eat-pecans/', 'No! Pecans aren’t safe for your dog especially when they become moldy. Moldy pecans contain tremorgenic mycotoxins that can lead to seizures or neurological issues. Also, nuts of any kind can give your dog an upset stomach or cause an intestinal obstruction leading to more serious digestive issues. Call your vet if your dog has eaten pecans.'],
+            ['Are Pecans Bad For Dogs?', 'https://www.cuteness.com/blog/content/are-pecans-bad-for-dogs', 'If your dog eats one pecan nut, it\'s not going to kill him. As long as he doesn\'t eat the whole shell or an entire bag of nuts, and as long as they\'re not salted or moldy, he should be all right. However, it can be dangerous, cause health issues and possibly be fatal if your dog eats large quantities of pecans, especially salty nuts, if they\'ve gone bad or if he gobbles down the shell.']
+          ]
         }
       ]);
     });
