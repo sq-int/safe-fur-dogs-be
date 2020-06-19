@@ -733,6 +733,16 @@ exports.seed = function (knex) {
             ['Can My Dog Eat Pecans?', 'https://www.rover.com/blog/can-my-dog-eat-pecans/', 'No! Pecans aren’t safe for your dog especially when they become moldy. Moldy pecans contain tremorgenic mycotoxins that can lead to seizures or neurological issues. Also, nuts of any kind can give your dog an upset stomach or cause an intestinal obstruction leading to more serious digestive issues. Call your vet if your dog has eaten pecans.'],
             ['Are Pecans Bad For Dogs?', 'https://www.cuteness.com/blog/content/are-pecans-bad-for-dogs', 'If your dog eats one pecan nut, it\'s not going to kill him. As long as he doesn\'t eat the whole shell or an entire bag of nuts, and as long as they\'re not salted or moldy, he should be all right. However, it can be dangerous, cause health issues and possibly be fatal if your dog eats large quantities of pecans, especially salty nuts, if they\'ve gone bad or if he gobbles down the shell.']
           ]
+        },
+        {
+          food: 'pistachios',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/pistachios.svg',
+          summary: 'Because of their high fat content, pistachios are not recommended for dogs.',
+          resources: [
+            ['Can Dogs Have Pistachios? Know the Risks', 'https://wildearth.com/blogs/dog-knowledge/can-dogs-have-pistachios', 'One thing to know about pistachios is that they are very high in fat. While pistachios have certain health benefits and are ultimately not toxic to dogs, their high fat content could make them pretty sick if they have them in large amounts. According to the ASPCA, the high fat content in nuts like pistachios, pecans, and macadamia nuts can cause vomiting and diarrhea in dogs.'],
+            ['Can My Dog Eat Pistachios?', 'https://www.rover.com/blog/can-my-dog-eat-pistachios/', 'Maybe not. Pistachios aren’t inherently toxic to dogs, but nuts aren’t a recommended treat for our furry friends. They’re high in fat and can contain a mold that puts your dog at risk for liver damage. Nuts can also give your dog an upset stomach or cause an intestinal obstruction leading to more serious digestive issues. In addition, pistachio shells are a choking hazard.']
+          ]
         }
       ]);
     });
