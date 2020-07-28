@@ -755,16 +755,6 @@ exports.seed = function (knex) {
           ]
         },
         {
-          food: 'spinach',
-          safe: 'false',
-          img: 'https://safefurdogs.com/img/spinach.svg',
-          summary: 'Spinach contains a lot of vitamins and antioxidants that can be healthy for dogs, however spinach is very high in oxalic acid which can cause kidney damage from blocks the body\'s ability to absorb calcium, so spinach is not recommended.',
-          resources: [
-            ['Can My Dog Eat Spinach?', 'https://www.akc.org/expert-advice/nutrition/can-my-dog-eat-spinach/', 'Of all the discussions about which human foods are safe for dogs, spinach may be one of the most controversial. Let’s start by remembering that dogs in the wild are carnivorous. If meat sources are scarce, they may eat vegetation to supplement their diet. But dogs do not need vegetables. However, some vegetables have useful nutrients and can also serve as a low-calorie snack. Here are the two sides of the spinach controversy...'],
-            ['Can My Dog Eat Spinach?', 'https://www.rover.com/blog/can-dog-eat-spinach/', 'This leafy green vegetable is loaded with nutritional benefits for humans and dogs. Spinach contains vitamins A, B, C, and K, as well as calcium, iron, fiber, manganese, folate, and potassium. It boosts the immune system, energy levels, and vitality. It’s also known to benefit the heart and help prevent cancer.']
-          ]
-        },
-        {
           food: 'cinnamon',
           safe: 'false',
           img: 'https://safefurdogs.com/img/cinnamon.svg',
