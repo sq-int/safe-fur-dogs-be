@@ -743,6 +743,46 @@ exports.seed = function (knex) {
             ['Can Dogs Have Pistachios? Know the Risks', 'https://wildearth.com/blogs/dog-knowledge/can-dogs-have-pistachios', 'One thing to know about pistachios is that they are very high in fat. While pistachios have certain health benefits and are ultimately not toxic to dogs, their high fat content could make them pretty sick if they have them in large amounts. According to the ASPCA, the high fat content in nuts like pistachios, pecans, and macadamia nuts can cause vomiting and diarrhea in dogs.'],
             ['Can My Dog Eat Pistachios?', 'https://www.rover.com/blog/can-my-dog-eat-pistachios/', 'Maybe not. Pistachios aren’t inherently toxic to dogs, but nuts aren’t a recommended treat for our furry friends. They’re high in fat and can contain a mold that puts your dog at risk for liver damage. Nuts can also give your dog an upset stomach or cause an intestinal obstruction leading to more serious digestive issues. In addition, pistachio shells are a choking hazard.']
           ]
+        },
+        {
+          food: 'celery',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/celery.svg',
+          summary: 'Celery is very low in fat and cholesterol and is an excellent source of fiber; vitamins A, C, and K; folate; potassium; and manganese making it a great weight loss treat for dogs.',
+          resources: [
+            ['Can Dogs Eat Celery?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-celery/', 'Celery is listed among the vegetables that are safe for dogs by multiple sources, including the veterinary websites Vetstreet.com and Clinician’s Brief, and is often recommended as a weight-loss treat. Celery is very low in fat and cholesterol and is an excellent source of fiber; vitamins A, C, and K; folate; potassium; and manganese. The crunchy veggie also might freshen up your dog’s breath, which is all the incentive some dog owners need.'],
+            ['Can Dogs Eat Celery? Is Celery Good for Dogs?', 'https://www.dogster.com/dog-food/can-dogs-eat-celery-is-celery-good-for-dogs', 'To find out if celery is safe for dogs to eat, we spoke with Heather Loenser, DVM, the Senior Veterinary Officer at the American Animal Hospital Association. While it’s okay to share your celery treats with your pup, Dr. Loenser cautions that celery should only be fed as a “snack in conjunction with eating a complete and balanced commercial diet.”']
+          ]
+        },
+        {
+          food: 'spinach',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/spinach.svg',
+          summary: 'Spinach contains a lot of vitamins and antioxidants that can be healthy for dogs, however spinach is very high in oxalic acid which can cause kidney damage from blocks the body\'s ability to absorb calcium, so spinach is not recommended.',
+          resources: [
+            ['Can My Dog Eat Spinach?', 'https://www.akc.org/expert-advice/nutrition/can-my-dog-eat-spinach/', 'Of all the discussions about which human foods are safe for dogs, spinach may be one of the most controversial. Let’s start by remembering that dogs in the wild are carnivorous. If meat sources are scarce, they may eat vegetation to supplement their diet. But dogs do not need vegetables. However, some vegetables have useful nutrients and can also serve as a low-calorie snack. Here are the two sides of the spinach controversy...'],
+            ['Can My Dog Eat Spinach?', 'https://www.rover.com/blog/can-dog-eat-spinach/', 'This leafy green vegetable is loaded with nutritional benefits for humans and dogs. Spinach contains vitamins A, B, C, and K, as well as calcium, iron, fiber, manganese, folate, and potassium. It boosts the immune system, energy levels, and vitality. It’s also known to benefit the heart and help prevent cancer.']
+          ]
+        },
+        {
+          food: 'cinnamon',
+          safe: 'false',
+          img: 'https://safefurdogs.com/img/cinnamon.svg',
+          summary: 'Cinnamon is not toxic for dogs, but is not recommended because it can cause skin and digestive irritation and sensitization in dogs.',
+          resources: [
+            ['Can Dogs Eat Cinnamon?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-cinnamon/', 'The good news is that cinnamon is not toxic to dogs. Your dog will not suffer fatal toxic effects from consuming too much cinnamon, but that does not necessarily mean you should be sprinkling it on his kibble. The Pet Poison Helpline cautions that cinnamon and cinnamon oils can cause skin and digestive irritation and sensitization in both pets and people, especially if consumed in large quantities.'],
+            ['Can My Dog Eat Cinnamon?', 'https://www.rover.com/blog/can-dog-eat-cinnamon/', 'In small amounts, yes. Cinnamon is non-toxic to dogs according to the ASPCA. In small amounts, which means one teaspoon or less per serving as an occasional treat, it is perfectly safe and may even offer health benefits.']
+          ]
+        },
+        {
+          food: 'coconut',
+          safe: 'true',
+          img: 'https://safefurdogs.com/img/coconut.svg',
+          summary: 'Coconut meat and oil are a great healthy treat for dogs. The medium chain triglycerides can possibly result in gastrointestinal upset and bloating, so be sure to give cocounut to your dog in moderation.',
+          resources: [
+            ['Can Dogs Eat Coconut?', 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-coconut/', 'We all know that dogs can eat coconut oil, and owners are often encouraged to add it to their dogs’ diets, but what about the coconut meat itself? Should we be giving actual pieces of it to our dogs? The short answer is yes! Coconut meat is just as healthy, if not more so, than the coconut oil alone. They share similar properties since they come from the same place. Coconut is non-toxic to dogs, but it does contain medium chain triglycerides, which may cause some gastrointestinal upset and bloating. You’ll want to check with your veterinarian before giving your dog coconut, of course. But the benefits should certainly outweigh the risks. So if your dog likes the taste of coconut meat, feel free to give him some.'],
+            ['Can Dogs Eat Coconut?', 'https://www.petguide.com/health/dog/can-dogs-eat-coconut/', 'The short answer to the question can dogs eat coconut is- yes, when properly served and in moderation. What does that mean, precisely? Well, first of all, you shouldn’t ever give your pooch coconut in its shell, as eating pieces of coconut shell can be very dangerous for dogs since they can cause an intestinal obstruction. While you may think that the hard shell might be a good natural dental treat for your pooch to chew on, the truth is that this is the one part of the coconut your four-legged companion should definitely steer clear of.']
+          ]
         }
       ]);
     });
