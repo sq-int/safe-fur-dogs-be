@@ -7,7 +7,7 @@ const router = express.Router();
 // Food model
 const Food = require("../models/Food.js");
 
-// test POST to create new food
+// POST to add a new food
 router.post("/", (req, res) => {
   const foodToAdd = req.body;
 
