@@ -2,7 +2,7 @@
 const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
-const { Router } = require("express");
+const mongoose = require("mongoose");
 
 // init server
 const server = express();
@@ -16,6 +16,18 @@ server.use(helmet());
 server.get("/", (req, res) => {
   res.json({ hey: "there" });
 });
+
+// connection options
+const options = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+};
+
+// connect to mongo DB atlas
+mongoose
+  .connect(`${process.env.DB_CONNECT}`, options)
+  .then(() => console.log("Successfully connected to database."))
+  .catch((err) => console.error(err));
 
 // export server
 module.exports = server;
