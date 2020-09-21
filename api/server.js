@@ -7,10 +7,16 @@ const mongoose = require("mongoose");
 // init server
 const server = express();
 
+// routers
+const foodRouter = require("./food/routers/router.js");
+
 // middleware
 server.use(express.json());
 server.use(cors());
 server.use(helmet());
+
+// routes
+server.use("/api/food", foodRouter);
 
 // test GET
 server.get("/", (req, res) => {
