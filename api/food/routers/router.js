@@ -16,6 +16,19 @@ router.get("/", (req, res) => {
     );
 });
 
+// GET a food by food name
+router.get("/:food", (req, res) => {
+  const foodToFind = req.params.food;
+
+  if (foodToFind) {
+    Food.findOne({ name: foodToFind })
+      .then((data) => {
+        res.json(data);
+      })
+      .catch((err) => res.json({ error: `${foodToFind} could not be found.` }));
+  }
+});
+
 // POST to add a new food
 router.post("/", (req, res) => {
   const foodToAdd = req.body;
@@ -24,6 +37,19 @@ router.post("/", (req, res) => {
     Food.create(foodToAdd)
       .then((data) => res.json(data))
       .catch((err) => res.json({ error: "Food could not be created." }));
+  }
+});
+
+// DELETE a food by name
+router.delete("/:food", (req, res) => {
+  const foodToRemove = req.params.food;
+
+  if (foodToRemove) {
+    Food.findOneAndRemove({ name: foodToRemove })
+      .then((data) => res.json(data))
+      .catch((err) =>
+        res.json({ error: `${foodToRemove} could not be removed.` })
+      );
   }
 });
 
