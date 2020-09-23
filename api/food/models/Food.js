@@ -14,8 +14,11 @@ const foodSchema = new mongoose.Schema({
   name: String,
   safe: Boolean,
   recommended: Boolean,
+  category: String,
   resources: [resourceSchema],
 });
+
+foodSchema.index({ name: 1, category: 1 });
 
 // export our model
 module.exports = mongoose.model("Food", foodSchema);

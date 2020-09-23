@@ -33,6 +33,23 @@ router.get("/:food", (req, res) => {
   }
 });
 
+// GET recommendations
+router.get("/suggest/:food", (req, res) => {
+  const foodToFind = req.params.food
+    .toLowerCase()
+    .slice(0, Math.round(req.params.food.length / 2));
+
+  if (foodToFind) {
+    Food.find({ name: { $regex: `${foodToFind}`, $options: "i" } })
+      .then((data) => {
+        res.json(data);
+      })
+      .catch((err) => {
+        res.json({ error: "Could not find any recommendations." });
+      });
+  }
+});
+
 // POST to add a new food
 router.post("/", (req, res) => {
   const foodToAdd = req.body;
