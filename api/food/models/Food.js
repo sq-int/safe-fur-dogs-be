@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 // resource schema for individual articles for a particular food
 const resourceSchema = new mongoose.Schema({
   title: String,
-  summary: String,
   resourceUrl: String,
   description: String,
 });
@@ -13,8 +12,10 @@ const resourceSchema = new mongoose.Schema({
 const foodSchema = new mongoose.Schema({
   name: String,
   safe: Boolean,
+  summary: String,
   recommended: Boolean,
   category: String,
+  img: String,
   resources: [resourceSchema],
 });
 
