@@ -6,6 +6,29 @@ const router = express.Router();
 
 // Food model
 const Food = require("../models/Food.js");
+const Missing = require("../models/Missing.js");
+
+// GET all missing food items
+router.get("/missing", (req, res) => {
+  Missing.find()
+    .then((data) => res.json(data))
+    .catch((err) =>
+      res.json({ error: "List of missing food items could not be found." })
+    );
+});
+
+// POST to add a missing food item
+router.post("/missing", (req, res) => {
+  const missingFoodToAdd = req.body;
+
+  if (missingFoodToAdd) {
+    Missing.create(missingFoodToAdd)
+      .then((created) => res.status(201).json(created))
+      .catch((err) => res.json({ error: "Food could not be submitted." }));
+  } else {
+    res.json({ error: "A name for the missing food must be provided." });
+  }
+});
 
 // GET a list of all food
 router.get("/", (req, res) => {
