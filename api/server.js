@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
 const mongoose = require("mongoose");
+const rateLimit = require("express-rate-limit");
 
 // init server
 const server = express();
@@ -15,13 +16,15 @@ server.use(express.json());
 server.use(cors());
 server.use(helmet());
 
-// routes
-server.use("/api/food", foodRouter);
-
-// test GET
-server.get("/", (req, res) => {
-  res.json({ hey: "there" });
+// rate limit configuration
+const limiter = rateLimit({
+  windowMs: 10 * 60 * 1000,
+  max: 20,
+  message: "You have submitted too many requests. Please try again later.",
 });
+
+// routes
+server.use("/api/food", limiter, foodRouter);
 
 // connection options
 const options = {
