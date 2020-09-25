@@ -1,37 +1,43 @@
-require('dotenv').config();
-const express = require('express');
-const cors = require('cors');
-const helmet = require('helmet');
-const rateLimit = require('express-rate-limit');
+// express
+const express = require("express");
+const cors = require("cors");
+const helmet = require("helmet");
+const mongoose = require("mongoose");
+const rateLimit = require("express-rate-limit");
 
+// init server
 const server = express();
 
-/* bring in routers */
-const foodRouter = require('./food/router');
-const requestRouter = require('./requested/router');
+// routers
+const foodRouter = require("./food/routers/router.js");
 
-/* configure rate limit */
-const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000,
-    max: 15,
-    message: 'Slow down there, cowboy. You have sent too many requests.'
-});
-
-/* middleware */
+// middleware
 server.use(express.json());
 server.use(cors());
 server.use(helmet());
-server.use(limiter);
 
-/* routes */
-server.use('/api/food', foodRouter);
-server.use('/api/request', requestRouter);
-
-/* endpoints */
-
-// test //
-server.get('/wakeup', (req, res) => {
-    res.send('<h2>WAKE ME UP</h2>');
+// rate limit configuration
+const limiter = rateLimit({
+  windowMs: 10 * 60 * 1000,
+  max: 20,
+  message: "You have submitted too many requests. Please try again later.",
 });
 
+// routes
+server.use("/api/food", limiter, foodRouter);
+
+// connection options
+const options = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useFindAndModify: false,
+};
+
+// connect to mongo DB atlas
+mongoose
+  .connect(`${process.env.DB_CONNECT}`, options)
+  .then(() => console.log("Successfully connected to database."))
+  .catch((err) => console.error(err));
+
+// export server
 module.exports = server;
