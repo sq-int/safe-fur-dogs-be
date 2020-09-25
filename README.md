@@ -14,3 +14,7 @@ Node.js, Express, MongoDB, Mongoose, cors, helmet, express-rate-limit
 | ------------------------ | ------- |
 | `process.env.PORT`       | 5000    |
 | `process.env.DB_CONNECT` | private |
+
+# Frontend
+
+For more information on the frontend for Safe Fur Dogs, click [here](https://github.com/sq-int/safe-fur-dogs).
