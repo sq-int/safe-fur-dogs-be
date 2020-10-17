@@ -73,36 +73,37 @@ router.get("/suggest/:food", (req, res) => {
   }
 });
 
-// POST to add a new food
-router.post("/", (req, res) => {
-  const foodToAdd = req.body;
-  // make sure we store food names lowercase for uniformity
-  foodToAdd.name = foodToAdd.name.toLowerCase();
+/* DISABLED */
+// // POST to add a new food
+// router.post("/", (req, res) => {
+//   const foodToAdd = req.body;
+//   // make sure we store food names lowercase for uniformity
+//   foodToAdd.name = foodToAdd.name.toLowerCase();
 
-  // if request has a food object
-  if (foodToAdd) {
-    // send new food to the backend
-    Food.create(foodToAdd)
-      .then((data) => res.json(data))
-      .catch((err) => res.json({ error: "Food could not be created." }));
-  }
-});
+//   // if request has a food object
+//   if (foodToAdd) {
+//     // send new food to the backend
+//     Food.create(foodToAdd)
+//       .then((data) => res.json(data))
+//       .catch((err) => res.json({ error: "Food could not be created." }));
+//   }
+// });
 
-// DELETE a food by name
-router.delete("/:food", (req, res) => {
-  // grab lowercase food from params
-  const foodToRemove = req.params.food.toLowerCase();
+// // DELETE a food by name
+// router.delete("/:food", (req, res) => {
+//   // grab lowercase food from params
+//   const foodToRemove = req.params.food.toLowerCase();
 
-  // if request has provided a valid food param
-  if (foodToRemove) {
-    // find matching food object in db and delete
-    Food.findOneAndRemove({ name: foodToRemove })
-      .then((data) => res.json(data))
-      .catch((err) =>
-        res.json({ error: `${foodToRemove} could not be removed.` })
-      );
-  }
-});
+//   // if request has provided a valid food param
+//   if (foodToRemove) {
+//     // find matching food object in db and delete
+//     Food.findOneAndRemove({ name: foodToRemove })
+//       .then((data) => res.json(data))
+//       .catch((err) =>
+//         res.json({ error: `${foodToRemove} could not be removed.` })
+//       );
+//   }
+// });
 
 // export router
 module.exports = router;
