@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 // resource schema for individual articles for a particular food
 const resourceSchema = new mongoose.Schema({
   title: String,
-  resourceUrl: String,
+  url: String,
   description: String,
 });
 

@@ -8,6 +8,10 @@ const router = express.Router();
 const Food = require("../models/Food.js");
 const Missing = require("../models/Missing.js");
 
+router.get("/", (req, res) => {
+  res.status(200).json({ success: 'API is working.' })
+})
+
 // GET all missing food items
 router.get("/missing", (req, res) => {
   Missing.find()
@@ -31,14 +35,14 @@ router.post("/missing", (req, res) => {
 });
 
 // GET a list of all food
-router.get("/", (req, res) => {
-  // grab all food from the db
-  Food.find()
-    .then((data) => res.json(data))
-    .catch((err) =>
-      res.json({ error: "The list of food could not be retrieved." })
-    );
-});
+// router.get("/", (req, res) => {
+//   // grab all food from the db
+//   Food.find()
+//     .then((data) => res.json(data))
+//     .catch((err) =>
+//       res.json({ error: "The list of food could not be retrieved." })
+//     );
+// });
 
 // GET a food by food name
 router.get("/:food", (req, res) => {
