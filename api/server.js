@@ -24,7 +24,7 @@ const limiter = rateLimit({
 });
 
 // routes
-server.use("/api/food", limiter, foodRouter);
+server.use("/food", limiter, foodRouter);
 
 // connection options
 const options = {
