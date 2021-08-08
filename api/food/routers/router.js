@@ -9,7 +9,7 @@ const Food = require("../models/Food.js");
 const Missing = require("../models/Missing.js");
 
 router.get("/", (req, res) => {
-  res.status(200).json({ success: 'API is working.' })
+  res.status(200).json({ success: 'API online' })
 })
 
 // GET all missing food items
