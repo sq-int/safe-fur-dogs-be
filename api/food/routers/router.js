@@ -8,9 +8,15 @@ const router = express.Router();
 const Food = require("../models/Food.js");
 const Missing = require("../models/Missing.js");
 
+// GET a list of all food
 router.get("/", (req, res) => {
-  res.status(200).json({ success: 'API online' })
-})
+  // grab all food from the db
+  Food.find()
+    .then((data) => res.json(data))
+    .catch((err) =>
+      res.json({ error: "The list of food could not be retrieved." })
+    );
+});
 
 // GET all missing food items
 router.get("/missing", (req, res) => {
@@ -33,16 +39,6 @@ router.post("/missing", (req, res) => {
     res.json({ error: "A name for the missing food must be provided." });
   }
 });
-
-// GET a list of all food
-// router.get("/", (req, res) => {
-//   // grab all food from the db
-//   Food.find()
-//     .then((data) => res.json(data))
-//     .catch((err) =>
-//       res.json({ error: "The list of food could not be retrieved." })
-//     );
-// });
 
 // GET a food by food name
 router.get("/:food", (req, res) => {
@@ -76,38 +72,6 @@ router.get("/suggest/:food", (req, res) => {
       });
   }
 });
-
-/* DISABLED */
-// // POST to add a new food
-// router.post("/", (req, res) => {
-//   const foodToAdd = req.body;
-//   // make sure we store food names lowercase for uniformity
-//   foodToAdd.name = foodToAdd.name.toLowerCase();
-
-//   // if request has a food object
-//   if (foodToAdd) {
-//     // send new food to the backend
-//     Food.create(foodToAdd)
-//       .then((data) => res.json(data))
-//       .catch((err) => res.json({ error: "Food could not be created." }));
-//   }
-// });
-
-// // DELETE a food by name
-// router.delete("/:food", (req, res) => {
-//   // grab lowercase food from params
-//   const foodToRemove = req.params.food.toLowerCase();
-
-//   // if request has provided a valid food param
-//   if (foodToRemove) {
-//     // find matching food object in db and delete
-//     Food.findOneAndRemove({ name: foodToRemove })
-//       .then((data) => res.json(data))
-//       .catch((err) =>
-//         res.json({ error: `${foodToRemove} could not be removed.` })
-//       );
-//   }
-// });
 
 // export router
 module.exports = router;
